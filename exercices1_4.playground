@@ -1,0 +1,41 @@
+let TOTAL = 5;
+
+
+/*
+ * exercice 1
+ */
+
+var numbers = [ Int]()
+
+for count in 0 ..< TOTAL
+{
+    numbers.append(count)
+}
+
+for number in numbers
+{
+    if number % 2 == 0
+    {
+        print("odd")
+    } else {
+        print("even")
+    }
+}
+
+/*
+ * exercice 2
+ */
+
+var people = [String: Int]()
+
+for count in 0 ..< TOTAL
+{
+    var name = "person\(count)"
+    
+    people[name] = count + 1
+}
+
+for (name, age) in people
+{
+    print(name)
+}
