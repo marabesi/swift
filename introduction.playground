@@ -1,0 +1,84 @@
+/*
+ * variables
+ */
+
+var str = "Hello, playground"      // simple usage of variable
+
+let MY_CONST: Int8 = 10            // explicity type integer
+
+print("Hello " + String(MY_CONST)) // printing and using concatenation
+
+print("Hello \(str)")              // other type of concatenation
+
+/*
+ * arrays
+ */
+
+var dictionary = ["hello", "world"]
+
+print(dictionary)                  // will print the array ["hello", "world"], amazing feature by the way
+
+print(dictionary[0])               // print hello
+
+
+var dictionaryWithStrings = ["hello": "my value"]
+print(dictionaryWithStrings["hello"]) // here is imposible to access the array by numeric indexes it must be string
+
+var explicityArray = [String : Float]()
+
+explicityArray["key"] = 20        // as a float value the 20 will be casted to 20.0
+
+print(explicityArray)             // ["key": 20.0]
+
+/*
+ * conditionals
+ */
+
+if MY_CONST == 10
+{
+    print(String(MY_CONST))
+}
+else if MY_CONST % 2 == 0
+{
+    print("odd")
+}
+else
+{
+    print("even")
+}
+
+var ternary = MY_CONST < 20 ? 1 : 0
+
+switch MY_CONST
+{
+    case 10:
+        print("MY_CONST")
+    case 20, 30:
+        print("20 or 30")
+    default:
+        print("DEFAULT")
+}
+
+/*
+ * loops
+ */
+
+var notes = [ 10, 9, 1, 2.2 ]
+
+for note in notes
+{
+    print(note)
+}
+
+for count in 0 ..< 10
+{
+    print(count)
+}
+
+var n = 0;
+
+while n < 5 {
+    n += 1
+}
+
+print(n)                        // prints 5
