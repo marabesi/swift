@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="class3_exercice1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feD-LG-DoI">
+                                <rect key="frame" x="230" y="241" width="158" height="30"/>
+                                <state key="normal" title="Create a new Pokemon"/>
+                                <connections>
+                                    <segue destination="g1T-gx-Lke" kind="show" id="mAB-4U-Cuj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfv-lh-3LN">
+                                <rect key="frame" x="254" y="315" width="93" height="30"/>
+                                <state key="normal" title="List Pokemon"/>
+                                <connections>
+                                    <segue destination="zbL-ba-oIK" kind="show" id="diJ-k9-Bxf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="feD-LG-DoI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="221" id="Ogf-0Q-PCN"/>
+                            <constraint firstItem="Hfv-lh-3LN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uf0-ai-UIb"/>
+                            <constraint firstItem="Hfv-lh-3LN" firstAttribute="top" secondItem="feD-LG-DoI" secondAttribute="bottom" constant="44" id="mWL-ib-QUe"/>
+                            <constraint firstItem="feD-LG-DoI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tWx-eS-vs4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="143" y="349"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kn3-Gd-VrG">
+            <objects>
+                <viewController id="zbL-ba-oIK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eUv-iU-mju"/>
+                        <viewControllerLayoutGuide type="bottom" id="jjp-RU-9t9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PhP-2p-8cZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7o0-wX-Xl6">
+                                <rect key="frame" x="-40" y="153" width="600" height="216"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dw3-R0-xCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="143" y="1260"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eL1-uy-XHu">
+            <objects>
+                <viewController id="g1T-gx-Lke" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e6I-AV-Wn3"/>
+                        <viewControllerLayoutGuide type="bottom" id="r5n-mA-ey3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gaR-E0-axZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pokemon name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDE-Tk-eEr">
+                                <rect key="frame" x="74" y="323" width="163" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="46" y="67" width="118" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Select your pokemon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibm-7e-eUA">
+                                <rect key="frame" x="116" y="70" width="181" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="46" y="173" width="162" height="21"/>
+                                </variation>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="poa-B2-Pyu">
+                                <rect key="frame" x="126" y="99" width="320" height="216"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="61" y="250" width="259" height="138"/>
+                                </variation>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGx-ay-nth">
+                                <rect key="frame" x="74" y="357" width="388" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="46" y="106" width="299" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIH-xw-Sil">
+                                <rect key="frame" x="263" y="469" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SIH-xw-Sil" firstAttribute="top" secondItem="sGx-ay-nth" secondAttribute="bottom" constant="82" id="CBz-mA-nR0"/>
+                            <constraint firstItem="Ibm-7e-eUA" firstAttribute="centerX" secondItem="gaR-E0-axZ" secondAttribute="centerX" id="IAD-8S-QZg"/>
+                            <constraint firstItem="SIH-xw-Sil" firstAttribute="centerX" secondItem="gaR-E0-axZ" secondAttribute="centerX" id="NrO-6d-95h"/>
+                            <constraint firstItem="poa-B2-Pyu" firstAttribute="centerX" secondItem="gaR-E0-axZ" secondAttribute="centerX" id="RHA-e4-qZn"/>
+                            <constraint firstItem="sGx-ay-nth" firstAttribute="centerX" secondItem="gaR-E0-axZ" secondAttribute="centerX" id="Sg3-GO-cD9"/>
+                            <constraint firstItem="poa-B2-Pyu" firstAttribute="top" secondItem="Ibm-7e-eUA" secondAttribute="bottom" constant="8" id="cwM-N8-D5v"/>
+                            <constraint firstItem="sGx-ay-nth" firstAttribute="top" secondItem="yDE-Tk-eEr" secondAttribute="bottom" constant="13" id="eud-nh-htS"/>
+                            <constraint firstItem="yDE-Tk-eEr" firstAttribute="top" secondItem="poa-B2-Pyu" secondAttribute="bottom" constant="8" id="qAV-i4-aoO"/>
+                            <constraint firstItem="yDE-Tk-eEr" firstAttribute="centerX" secondItem="gaR-E0-axZ" secondAttribute="centerX" id="wEb-k9-dYd"/>
+                            <constraint firstItem="Ibm-7e-eUA" firstAttribute="top" secondItem="e6I-AV-Wn3" secondAttribute="bottom" constant="50" id="yfg-XX-zym"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wyW-tI-aVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134" y="349"/>
+        </scene>
+    </scenes>
+</document>
