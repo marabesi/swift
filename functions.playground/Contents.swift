@@ -43,3 +43,12 @@ let value = { number in 3 * number }
 
 print(value(3))
 
+class Calc {
+    func somar (a: Int, b: Int) -> Int {
+        return a + b
+    }
+}
+
+var sum = Calc()
+sum.somar(2, b: 3)
+
