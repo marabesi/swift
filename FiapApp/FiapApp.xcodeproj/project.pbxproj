@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94352A8F1D5FBBE600766F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94352A8E1D5FBBE600766F0A /* AppDelegate.swift */; };
+		94352A911D5FBBE600766F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94352A901D5FBBE600766F0A /* ViewController.swift */; };
+		94352A941D5FBBE600766F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94352A921D5FBBE600766F0A /* Main.storyboard */; };
+		94352A961D5FBBE600766F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94352A951D5FBBE600766F0A /* Assets.xcassets */; };
+		94352A991D5FBBE600766F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94352A971D5FBBE600766F0A /* LaunchScreen.storyboard */; };
+		94352AA41D5FBBE600766F0A /* FiapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94352AA31D5FBBE600766F0A /* FiapAppTests.swift */; };
+		94352AAF1D5FBBE600766F0A /* FiapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94352AAE1D5FBBE600766F0A /* FiapAppUITests.swift */; };
+		94352ABD1D5FE2F100766F0A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94352ABC1D5FE2F100766F0A /* TableViewCell.swift */; };
+		94352ABF1D5FE31600766F0A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94352ABE1D5FE31600766F0A /* TableViewController.swift */; };
+		94C6E30C1D61240A002D1F9E /* Pokemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C6E30B1D61240A002D1F9E /* Pokemons.swift */; };
+		94C6E30E1D614037002D1F9E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C6E30D1D614037002D1F9E /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94352AA01D5FBBE600766F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94352A831D5FBBE600766F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94352A8A1D5FBBE600766F0A;
+			remoteInfo = FiapApp;
+		};
+		94352AAB1D5FBBE600766F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94352A831D5FBBE600766F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94352A8A1D5FBBE600766F0A;
+			remoteInfo = FiapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94352A8B1D5FBBE600766F0A /* FiapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94352A8E1D5FBBE600766F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94352A901D5FBBE600766F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94352A931D5FBBE600766F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94352A951D5FBBE600766F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94352A981D5FBBE600766F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94352A9A1D5FBBE600766F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94352A9F1D5FBBE600766F0A /* FiapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94352AA31D5FBBE600766F0A /* FiapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiapAppTests.swift; sourceTree = "<group>"; };
+		94352AA51D5FBBE600766F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94352AAA1D5FBBE600766F0A /* FiapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94352AAE1D5FBBE600766F0A /* FiapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiapAppUITests.swift; sourceTree = "<group>"; };
+		94352AB01D5FBBE600766F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94352ABC1D5FE2F100766F0A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		94352ABE1D5FE31600766F0A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		94C6E30B1D61240A002D1F9E /* Pokemons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemons.swift; sourceTree = "<group>"; };
+		94C6E30D1D614037002D1F9E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94352A881D5FBBE600766F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94352A9C1D5FBBE600766F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94352AA71D5FBBE600766F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94352A821D5FBBE600766F0A = {
+			isa = PBXGroup;
+			children = (
+				94352A8D1D5FBBE600766F0A /* FiapApp */,
+				94352AA21D5FBBE600766F0A /* FiapAppTests */,
+				94352AAD1D5FBBE600766F0A /* FiapAppUITests */,
+				94352A8C1D5FBBE600766F0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94352A8C1D5FBBE600766F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94352A8B1D5FBBE600766F0A /* FiapApp.app */,
+				94352A9F1D5FBBE600766F0A /* FiapAppTests.xctest */,
+				94352AAA1D5FBBE600766F0A /* FiapAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94352A8D1D5FBBE600766F0A /* FiapApp */ = {
+			isa = PBXGroup;
+			children = (
+				94352A8E1D5FBBE600766F0A /* AppDelegate.swift */,
+				94352A901D5FBBE600766F0A /* ViewController.swift */,
+				94352A921D5FBBE600766F0A /* Main.storyboard */,
+				94352A951D5FBBE600766F0A /* Assets.xcassets */,
+				94352A971D5FBBE600766F0A /* LaunchScreen.storyboard */,
+				94352A9A1D5FBBE600766F0A /* Info.plist */,
+				94352ABC1D5FE2F100766F0A /* TableViewCell.swift */,
+				94352ABE1D5FE31600766F0A /* TableViewController.swift */,
+				94C6E30B1D61240A002D1F9E /* Pokemons.swift */,
+				94C6E30D1D614037002D1F9E /* DetailViewController.swift */,
+			);
+			path = FiapApp;
+			sourceTree = "<group>";
+		};
+		94352AA21D5FBBE600766F0A /* FiapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				94352AA31D5FBBE600766F0A /* FiapAppTests.swift */,
+				94352AA51D5FBBE600766F0A /* Info.plist */,
+			);
+			path = FiapAppTests;
+			sourceTree = "<group>";
+		};
+		94352AAD1D5FBBE600766F0A /* FiapAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94352AAE1D5FBBE600766F0A /* FiapAppUITests.swift */,
+				94352AB01D5FBBE600766F0A /* Info.plist */,
+			);
+			path = FiapAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94352A8A1D5FBBE600766F0A /* FiapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94352AB31D5FBBE600766F0A /* Build configuration list for PBXNativeTarget "FiapApp" */;
+			buildPhases = (
+				94352A871D5FBBE600766F0A /* Sources */,
+				94352A881D5FBBE600766F0A /* Frameworks */,
+				94352A891D5FBBE600766F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiapApp;
+			productName = FiapApp;
+			productReference = 94352A8B1D5FBBE600766F0A /* FiapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94352A9E1D5FBBE600766F0A /* FiapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94352AB61D5FBBE600766F0A /* Build configuration list for PBXNativeTarget "FiapAppTests" */;
+			buildPhases = (
+				94352A9B1D5FBBE600766F0A /* Sources */,
+				94352A9C1D5FBBE600766F0A /* Frameworks */,
+				94352A9D1D5FBBE600766F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94352AA11D5FBBE600766F0A /* PBXTargetDependency */,
+			);
+			name = FiapAppTests;
+			productName = FiapAppTests;
+			productReference = 94352A9F1D5FBBE600766F0A /* FiapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94352AA91D5FBBE600766F0A /* FiapAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94352AB91D5FBBE600766F0A /* Build configuration list for PBXNativeTarget "FiapAppUITests" */;
+			buildPhases = (
+				94352AA61D5FBBE600766F0A /* Sources */,
+				94352AA71D5FBBE600766F0A /* Frameworks */,
+				94352AA81D5FBBE600766F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94352AAC1D5FBBE600766F0A /* PBXTargetDependency */,
+			);
+			name = FiapAppUITests;
+			productName = FiapAppUITests;
+			productReference = 94352AAA1D5FBBE600766F0A /* FiapAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94352A831D5FBBE600766F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matheus Marabesi";
+				TargetAttributes = {
+					94352A8A1D5FBBE600766F0A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DA7ASKAKTV;
+					};
+					94352A9E1D5FBBE600766F0A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 94352A8A1D5FBBE600766F0A;
+					};
+					94352AA91D5FBBE600766F0A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 94352A8A1D5FBBE600766F0A;
+					};
+				};
+			};
+			buildConfigurationList = 94352A861D5FBBE600766F0A /* Build configuration list for PBXProject "FiapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94352A821D5FBBE600766F0A;
+			productRefGroup = 94352A8C1D5FBBE600766F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94352A8A1D5FBBE600766F0A /* FiapApp */,
+				94352A9E1D5FBBE600766F0A /* FiapAppTests */,
+				94352AA91D5FBBE600766F0A /* FiapAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94352A891D5FBBE600766F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94352A991D5FBBE600766F0A /* LaunchScreen.storyboard in Resources */,
+				94352A961D5FBBE600766F0A /* Assets.xcassets in Resources */,
+				94352A941D5FBBE600766F0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94352A9D1D5FBBE600766F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94352AA81D5FBBE600766F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94352A871D5FBBE600766F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94352ABD1D5FE2F100766F0A /* TableViewCell.swift in Sources */,
+				94352A911D5FBBE600766F0A /* ViewController.swift in Sources */,
+				94C6E30C1D61240A002D1F9E /* Pokemons.swift in Sources */,
+				94C6E30E1D614037002D1F9E /* DetailViewController.swift in Sources */,
+				94352A8F1D5FBBE600766F0A /* AppDelegate.swift in Sources */,
+				94352ABF1D5FE31600766F0A /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94352A9B1D5FBBE600766F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94352AA41D5FBBE600766F0A /* FiapAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94352AA61D5FBBE600766F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94352AAF1D5FBBE600766F0A /* FiapAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94352AA11D5FBBE600766F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94352A8A1D5FBBE600766F0A /* FiapApp */;
+			targetProxy = 94352AA01D5FBBE600766F0A /* PBXContainerItemProxy */;
+		};
+		94352AAC1D5FBBE600766F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94352A8A1D5FBBE600766F0A /* FiapApp */;
+			targetProxy = 94352AAB1D5FBBE600766F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94352A921D5FBBE600766F0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94352A931D5FBBE600766F0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94352A971D5FBBE600766F0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94352A981D5FBBE600766F0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94352AB11D5FBBE600766F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94352AB21D5FBBE600766F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94352AB41D5FBBE600766F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FiapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fiap.FiapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		94352AB51D5FBBE600766F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FiapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fiap.FiapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		94352AB71D5FBBE600766F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FiapAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fiap.FiapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiapApp.app/FiapApp";
+			};
+			name = Debug;
+		};
+		94352AB81D5FBBE600766F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FiapAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fiap.FiapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiapApp.app/FiapApp";
+			};
+			name = Release;
+		};
+		94352ABA1D5FBBE600766F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FiapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fiap.FiapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FiapApp;
+			};
+			name = Debug;
+		};
+		94352ABB1D5FBBE600766F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FiapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fiap.FiapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FiapApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94352A861D5FBBE600766F0A /* Build configuration list for PBXProject "FiapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94352AB11D5FBBE600766F0A /* Debug */,
+				94352AB21D5FBBE600766F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94352AB31D5FBBE600766F0A /* Build configuration list for PBXNativeTarget "FiapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94352AB41D5FBBE600766F0A /* Debug */,
+				94352AB51D5FBBE600766F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94352AB61D5FBBE600766F0A /* Build configuration list for PBXNativeTarget "FiapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94352AB71D5FBBE600766F0A /* Debug */,
+				94352AB81D5FBBE600766F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94352AB91D5FBBE600766F0A /* Build configuration list for PBXNativeTarget "FiapAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94352ABA1D5FBBE600766F0A /* Debug */,
+				94352ABB1D5FBBE600766F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94352A831D5FBBE600766F0A /* Project object */;
+}

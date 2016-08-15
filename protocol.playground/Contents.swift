@@ -16,3 +16,18 @@ class Honda: Car {
 }
 
 var honda = Honda()
+
+protocol Carro {
+    var cor: String { get set }
+}
+
+class Fiat: Carro {
+    var cor: String = ""
+}
+
+var palio = Fiat()
+palio.cor = "preto"
+
+struct Uno: Carro {
+    var cor = "azul"
+}

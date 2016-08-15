@@ -52,3 +52,12 @@ class Calc {
 var sum = Calc()
 sum.somar(2, b: 3)
 
+
+func saudacao(nome: String) {
+        print("Olá " + nome)
+}
+
+saudacao("matheus")
+
+
+
