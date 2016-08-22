@@ -1,0 +1,3826 @@
+
+[
+    {
+        "id": 1,
+        "img_url": "http://serebii.net/pokemongo/pokemon/001.png",
+        "name": "Bulbasaur",
+        "hit_points": "90",
+        "attack": "126",
+        "defense": "126",
+        "max_cp": "1071",
+        "catch_rate": "16%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            36,
+            38
+        ],
+        "special_attacks_ids": [
+            68,
+            64,
+            57
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 2,
+        "img_url": "http://serebii.net/pokemongo/pokemon/002.png",
+        "name": "Ivysaur",
+        "hit_points": "120",
+        "attack": "156",
+        "defense": "158",
+        "max_cp": "1632",
+        "catch_rate": "8%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            27,
+            38
+        ],
+        "special_attacks_ids": [
+            68,
+            70,
+            57
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "img_url": "http://serebii.net/pokemongo/pokemon/003.png",
+        "name": "Venusaur",
+        "hit_points": "160",
+        "attack": "198",
+        "defense": "200",
+        "max_cp": "2580",
+        "catch_rate": "4%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            27,
+            38
+        ],
+        "special_attacks_ids": [
+            68,
+            70,
+            53
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 4,
+        "img_url": "http://serebii.net/pokemongo/pokemon/004.png",
+        "name": "Charmander",
+        "hit_points": "78",
+        "attack": "128",
+        "defense": "108",
+        "max_cp": "955",
+        "catch_rate": "16%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            30,
+            9
+        ],
+        "special_attacks_ids": [
+            29,
+            32,
+            30
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 5,
+        "img_url": "http://serebii.net/pokemongo/pokemon/005.png",
+        "name": "Charmeleon",
+        "hit_points": "116",
+        "attack": "160",
+        "defense": "140",
+        "max_cp": "1557",
+        "catch_rate": "8%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            30,
+            9
+        ],
+        "special_attacks_ids": [
+            29,
+            32,
+            28
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 6,
+        "img_url": "http://serebii.net/pokemongo/pokemon/006.png",
+        "name": "Charizard",
+        "hit_points": "156",
+        "attack": "212",
+        "defense": "182",
+        "max_cp": "2602",
+        "catch_rate": "4%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            40,
+            9
+        ],
+        "special_attacks_ids": [
+            21,
+            32,
+            27
+        ],
+        "types_ids": [
+            4,
+            3
+        ]
+    },
+    {
+        "id": 7,
+        "img_url": "http://serebii.net/pokemongo/pokemon/007.png",
+        "name": "Squirtle",
+        "hit_points": "88",
+        "attack": "112",
+        "defense": "142",
+        "max_cp": "1008",
+        "catch_rate": "16%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            36,
+            3
+        ],
+        "special_attacks_ids": [
+            4,
+            5,
+            81
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 8,
+        "img_url": "http://serebii.net/pokemongo/pokemon/008.png",
+        "name": "Wartortle",
+        "hit_points": "118",
+        "attack": "144",
+        "defense": "176",
+        "max_cp": "1582",
+        "catch_rate": "8%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            2,
+            39
+        ],
+        "special_attacks_ids": [
+            4,
+            38,
+            41
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 9,
+        "img_url": "http://serebii.net/pokemongo/pokemon/009.png",
+        "name": "Blastoise",
+        "hit_points": "158",
+        "attack": "186",
+        "defense": "222",
+        "max_cp": "2542",
+        "catch_rate": "4%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            2,
+            39
+        ],
+        "special_attacks_ids": [
+            41,
+            38,
+            33
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 10,
+        "img_url": "http://serebii.net/pokemongo/pokemon/010.png",
+        "name": "Caterpie",
+        "hit_points": "90",
+        "attack": "62",
+        "defense": "66",
+        "max_cp": "443",
+        "catch_rate": "40%",
+        "flee_rate": "20%",
+        "candies_to_evolve": "12",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            36,
+            4
+        ],
+        "special_attacks_ids": [
+            73
+        ],
+        "types_ids": [
+            6
+        ]
+    },
+    {
+        "id": 11,
+        "img_url": "http://serebii.net/pokemongo/pokemon/011.png",
+        "name": "Metapod",
+        "hit_points": "100",
+        "attack": "56",
+        "defense": "86",
+        "max_cp": "477",
+        "catch_rate": "20%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            36,
+            4
+        ],
+        "special_attacks_ids": [
+            73
+        ],
+        "types_ids": [
+            6
+        ]
+    },
+    {
+        "id": 12,
+        "img_url": "http://serebii.net/pokemongo/pokemon/012.png",
+        "name": "Butterfree",
+        "hit_points": "120",
+        "attack": "144",
+        "defense": "144",
+        "max_cp": "1454",
+        "catch_rate": "10%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            6,
+            4
+        ],
+        "special_attacks_ids": [
+            59,
+            12,
+            66
+        ],
+        "types_ids": [
+            4,
+            6
+        ]
+    },
+    {
+        "id": 13,
+        "img_url": "http://serebii.net/pokemongo/pokemon/013.png",
+        "name": "Weedle",
+        "hit_points": "80",
+        "attack": "68",
+        "defense": "64",
+        "max_cp": "449",
+        "catch_rate": "40%",
+        "flee_rate": "20%",
+        "candies_to_evolve": "12",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            4,
+            23
+        ],
+        "special_attacks_ids": [
+            73
+        ],
+        "types_ids": [
+            1,
+            6
+        ]
+    },
+    {
+        "id": 14,
+        "img_url": "http://serebii.net/pokemongo/pokemon/014.png",
+        "name": "Kakuna",
+        "hit_points": "90",
+        "attack": "62",
+        "defense": "82",
+        "max_cp": "485",
+        "catch_rate": "20%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            4,
+            23
+        ],
+        "special_attacks_ids": [
+            73
+        ],
+        "types_ids": [
+            1,
+            6
+        ]
+    },
+    {
+        "id": 15,
+        "img_url": "http://serebii.net/pokemongo/pokemon/015.png",
+        "name": "Beedrill",
+        "hit_points": "130",
+        "attack": "144",
+        "defense": "130",
+        "max_cp": "1439",
+        "catch_rate": "10%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            4,
+            22
+        ],
+        "special_attacks_ids": [
+            1,
+            68,
+            83
+        ],
+        "types_ids": [
+            1,
+            6
+        ]
+    },
+    {
+        "id": 16,
+        "img_url": "http://serebii.net/pokemongo/pokemon/016.png",
+        "name": "Pidgey",
+        "hit_points": "80",
+        "attack": "94",
+        "defense": "90",
+        "max_cp": "679",
+        "catch_rate": "40%",
+        "flee_rate": "20%",
+        "candies_to_evolve": "12",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            36,
+            26
+        ],
+        "special_attacks_ids": [
+            79,
+            1,
+            2
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 17,
+        "img_url": "http://serebii.net/pokemongo/pokemon/017.png",
+        "name": "Pidgeotto",
+        "hit_points": "126",
+        "attack": "126",
+        "defense": "122",
+        "max_cp": "1223",
+        "catch_rate": "20%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            40,
+            34
+        ],
+        "special_attacks_ids": [
+            79,
+            1,
+            2
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 18,
+        "img_url": "http://serebii.net/pokemongo/pokemon/018.png",
+        "name": "Pidgeot",
+        "hit_points": "166",
+        "attack": "170",
+        "defense": "166",
+        "max_cp": "2091",
+        "catch_rate": "10%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            40,
+            34
+        ],
+        "special_attacks_ids": [
+            37,
+            1,
+            2
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 19,
+        "img_url": "http://serebii.net/pokemongo/pokemon/019.png",
+        "name": "Rattata",
+        "hit_points": "60",
+        "attack": "92",
+        "defense": "86",
+        "max_cp": "581",
+        "catch_rate": "40%",
+        "flee_rate": "20%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            36,
+            26
+        ],
+        "special_attacks_ids": [
+            18,
+            40,
+            7
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 20,
+        "img_url": "http://serebii.net/pokemongo/pokemon/020.png",
+        "name": "Raticate",
+        "hit_points": "110",
+        "attack": "146",
+        "defense": "150",
+        "max_cp": "1444",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            2,
+            26
+        ],
+        "special_attacks_ids": [
+            18,
+            40,
+            39
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 21,
+        "img_url": "http://serebii.net/pokemongo/pokemon/021.png",
+        "name": "Spearow",
+        "hit_points": "80",
+        "attack": "102",
+        "defense": "78",
+        "max_cp": "686",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            26,
+            21
+        ],
+        "special_attacks_ids": [
+            1,
+            79,
+            24
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 22,
+        "img_url": "http://serebii.net/pokemongo/pokemon/022.png",
+        "name": "Fearow",
+        "hit_points": "130",
+        "attack": "168",
+        "defense": "146",
+        "max_cp": "1746",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            34,
+            21
+        ],
+        "special_attacks_ids": [
+            1,
+            79,
+            25
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 23,
+        "img_url": "http://serebii.net/pokemongo/pokemon/023.png",
+        "name": "Ekans",
+        "hit_points": "70",
+        "attack": "112",
+        "defense": "112",
+        "max_cp": "824",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            1,
+            23
+        ],
+        "special_attacks_ids": [
+            34,
+            68,
+            82
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 24,
+        "img_url": "http://serebii.net/pokemongo/pokemon/024.png",
+        "name": "Arbok",
+        "hit_points": "120",
+        "attack": "166",
+        "defense": "166",
+        "max_cp": "1767",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            1,
+            2
+        ],
+        "special_attacks_ids": [
+            34,
+            69,
+            16
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 25,
+        "img_url": "http://serebii.net/pokemongo/pokemon/025.png",
+        "name": "Pikachu",
+        "hit_points": "70",
+        "attack": "124",
+        "defense": "108",
+        "max_cp": "887",
+        "catch_rate": "16%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            37,
+            26
+        ],
+        "special_attacks_ids": [
+            78,
+            20,
+            76
+        ],
+        "types_ids": [
+            7
+        ]
+    },
+    {
+        "id": 26,
+        "img_url": "http://serebii.net/pokemongo/pokemon/026.png",
+        "name": "Raichu",
+        "hit_points": "120",
+        "attack": "200",
+        "defense": "154",
+        "max_cp": "2028",
+        "catch_rate": "8%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            37,
+            32
+        ],
+        "special_attacks_ids": [
+            9,
+            77,
+            76
+        ],
+        "types_ids": [
+            7
+        ]
+    },
+    {
+        "id": 27,
+        "img_url": "http://serebii.net/pokemongo/pokemon/027.png",
+        "name": "Sandshrew",
+        "hit_points": "100",
+        "attack": "90",
+        "defense": "114",
+        "max_cp": "798",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            30,
+            19
+        ],
+        "special_attacks_ids": [
+            18,
+            61,
+            62
+        ],
+        "types_ids": [
+            10
+        ]
+    },
+    {
+        "id": 28,
+        "img_url": "http://serebii.net/pokemongo/pokemon/028.png",
+        "name": "Sandslash",
+        "hit_points": "150",
+        "attack": "150",
+        "defense": "172",
+        "max_cp": "1810",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            18,
+            19
+        ],
+        "special_attacks_ids": [
+            62,
+            13,
+            26
+        ],
+        "types_ids": [
+            10
+        ]
+    },
+    {
+        "id": 29,
+        "img_url": "http://serebii.net/pokemongo/pokemon/029.png",
+        "name": "Nidoranâ™€",
+        "hit_points": "110",
+        "attack": "100",
+        "defense": "104",
+        "max_cp": "876",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            23,
+            2
+        ],
+        "special_attacks_ids": [
+            55,
+            68,
+            7
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 30,
+        "img_url": "http://serebii.net/pokemongo/pokemon/030.png",
+        "name": "Nidorina",
+        "hit_points": "140",
+        "attack": "132",
+        "defense": "136",
+        "max_cp": "1404",
+        "catch_rate": "20%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            23,
+            2
+        ],
+        "special_attacks_ids": [
+            55,
+            68,
+            18
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 31,
+        "img_url": "http://serebii.net/pokemongo/pokemon/031.png",
+        "name": "Nidoqueen",
+        "hit_points": "180",
+        "attack": "184",
+        "defense": "190",
+        "max_cp": "2485",
+        "catch_rate": "10%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            22,
+            2
+        ],
+        "special_attacks_ids": [
+            72,
+            69,
+            26
+        ],
+        "types_ids": [
+            10,
+            1
+        ]
+    },
+    {
+        "id": 32,
+        "img_url": "http://serebii.net/pokemongo/pokemon/032.png",
+        "name": "Nidoranâ™‚",
+        "hit_points": "92",
+        "attack": "110",
+        "defense": "94",
+        "max_cp": "843",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            23,
+            21
+        ],
+        "special_attacks_ids": [
+            36,
+            7,
+            68
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 33,
+        "img_url": "http://serebii.net/pokemongo/pokemon/033.png",
+        "name": "Nidorino",
+        "hit_points": "122",
+        "attack": "142",
+        "defense": "128",
+        "max_cp": "1372",
+        "catch_rate": "20%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            22,
+            2
+        ],
+        "special_attacks_ids": [
+            36,
+            18,
+            68
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 34,
+        "img_url": "http://serebii.net/pokemongo/pokemon/034.png",
+        "name": "Nidoking",
+        "hit_points": "162",
+        "attack": "204",
+        "defense": "170",
+        "max_cp": "2475",
+        "catch_rate": "10%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            22,
+            13
+        ],
+        "special_attacks_ids": [
+            48,
+            26,
+            69
+        ],
+        "types_ids": [
+            10,
+            1
+        ]
+    },
+    {
+        "id": 35,
+        "img_url": "http://serebii.net/pokemongo/pokemon/035.png",
+        "name": "Clefairy",
+        "hit_points": "140",
+        "attack": "116",
+        "defense": "124",
+        "max_cp": "1200",
+        "catch_rate": "24%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            41,
+            24
+        ],
+        "special_attacks_ids": [
+            7,
+            19,
+            49
+        ],
+        "types_ids": [
+            9
+        ]
+    },
+    {
+        "id": 36,
+        "img_url": "http://serebii.net/pokemongo/pokemon/036.png",
+        "name": "Clefable",
+        "hit_points": "190",
+        "attack": "178",
+        "defense": "178",
+        "max_cp": "2397",
+        "catch_rate": "8%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            41,
+            24
+        ],
+        "special_attacks_ids": [
+            59,
+            17,
+            49
+        ],
+        "types_ids": [
+            9
+        ]
+    },
+    {
+        "id": 37,
+        "img_url": "http://serebii.net/pokemongo/pokemon/037.png",
+        "name": "Vulpix",
+        "hit_points": "76",
+        "attack": "106",
+        "defense": "118",
+        "max_cp": "831",
+        "catch_rate": "24%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            26,
+            9
+        ],
+        "special_attacks_ids": [
+            32,
+            7,
+            30
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 38,
+        "img_url": "http://serebii.net/pokemongo/pokemon/038.png",
+        "name": "Ninetales",
+        "hit_points": "146",
+        "attack": "176",
+        "defense": "194",
+        "max_cp": "2188",
+        "catch_rate": "8%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            10,
+            9
+        ],
+        "special_attacks_ids": [
+            35,
+            27,
+            32
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 39,
+        "img_url": "http://serebii.net/pokemongo/pokemon/039.png",
+        "name": "Jigglypuff",
+        "hit_points": "230",
+        "attack": "98",
+        "defense": "54",
+        "max_cp": "917",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            10,
+            24
+        ],
+        "special_attacks_ids": [
+            19,
+            7,
+            54
+        ],
+        "types_ids": [
+            9,
+            8
+        ]
+    },
+    {
+        "id": 40,
+        "img_url": "http://serebii.net/pokemongo/pokemon/040.png",
+        "name": "Wigglytuff",
+        "hit_points": "280",
+        "attack": "168",
+        "defense": "108",
+        "max_cp": "2177",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            10,
+            24
+        ],
+        "special_attacks_ids": [
+            17,
+            39,
+            54
+        ],
+        "types_ids": [
+            9,
+            8
+        ]
+    },
+    {
+        "id": 41,
+        "img_url": "http://serebii.net/pokemongo/pokemon/041.png",
+        "name": "Zubat",
+        "hit_points": "80",
+        "attack": "88",
+        "defense": "90",
+        "max_cp": "642",
+        "catch_rate": "40%",
+        "flee_rate": "20%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            2,
+            26
+        ],
+        "special_attacks_ids": [
+            68,
+            55,
+            2
+        ],
+        "types_ids": [
+            4,
+            1
+        ]
+    },
+    {
+        "id": 42,
+        "img_url": "http://serebii.net/pokemongo/pokemon/042.png",
+        "name": "Golbat",
+        "hit_points": "150",
+        "attack": "164",
+        "defense": "164",
+        "max_cp": "1921",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            2,
+            40
+        ],
+        "special_attacks_ids": [
+            52,
+            55,
+            2
+        ],
+        "types_ids": [
+            4,
+            1
+        ]
+    },
+    {
+        "id": 43,
+        "img_url": "http://serebii.net/pokemongo/pokemon/043.png",
+        "name": "Oddish",
+        "hit_points": "90",
+        "attack": "134",
+        "defense": "130",
+        "max_cp": "1148",
+        "catch_rate": "48%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            27,
+            1
+        ],
+        "special_attacks_ids": [
+            49,
+            64,
+            68
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 44,
+        "img_url": "http://serebii.net/pokemongo/pokemon/044.png",
+        "name": "Gloom",
+        "hit_points": "120",
+        "attack": "162",
+        "defense": "158",
+        "max_cp": "1689",
+        "catch_rate": "24%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            27,
+            1
+        ],
+        "special_attacks_ids": [
+            49,
+            53,
+            68
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 45,
+        "img_url": "http://serebii.net/pokemongo/pokemon/045.png",
+        "name": "Vileplume",
+        "hit_points": "150",
+        "attack": "202",
+        "defense": "190",
+        "max_cp": "2492",
+        "catch_rate": "12%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            27,
+            1
+        ],
+        "special_attacks_ids": [
+            49,
+            53,
+            70
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 46,
+        "img_url": "http://serebii.net/pokemongo/pokemon/046.png",
+        "name": "Paras",
+        "hit_points": "70",
+        "attack": "122",
+        "defense": "120",
+        "max_cp": "916",
+        "catch_rate": "32%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            4,
+            30
+        ],
+        "special_attacks_ids": [
+            64,
+            83,
+            15
+        ],
+        "types_ids": [
+            2,
+            6
+        ]
+    },
+    {
+        "id": 47,
+        "img_url": "http://serebii.net/pokemongo/pokemon/047.png",
+        "name": "Parasect",
+        "hit_points": "120",
+        "attack": "162",
+        "defense": "170",
+        "max_cp": "1747",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            4,
+            13
+        ],
+        "special_attacks_ids": [
+            70,
+            83,
+            15
+        ],
+        "types_ids": [
+            2,
+            6
+        ]
+    },
+    {
+        "id": 48,
+        "img_url": "http://serebii.net/pokemongo/pokemon/048.png",
+        "name": "Venonat",
+        "hit_points": "120",
+        "attack": "108",
+        "defense": "118",
+        "max_cp": "1029",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            6,
+            4
+        ],
+        "special_attacks_ids": [
+            66,
+            55,
+            58
+        ],
+        "types_ids": [
+            1,
+            6
+        ]
+    },
+    {
+        "id": 49,
+        "img_url": "http://serebii.net/pokemongo/pokemon/049.png",
+        "name": "Venomoth",
+        "hit_points": "140",
+        "attack": "172",
+        "defense": "154",
+        "max_cp": "1890",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            6,
+            4
+        ],
+        "special_attacks_ids": [
+            12,
+            55,
+            59
+        ],
+        "types_ids": [
+            1,
+            6
+        ]
+    },
+    {
+        "id": 50,
+        "img_url": "http://serebii.net/pokemongo/pokemon/050.png",
+        "name": "Diglett",
+        "hit_points": "20",
+        "attack": "108",
+        "defense": "86",
+        "max_cp": "456",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            30,
+            19
+        ],
+        "special_attacks_ids": [
+            62,
+            18,
+            50
+        ],
+        "types_ids": [
+            10
+        ]
+    },
+    {
+        "id": 51,
+        "img_url": "http://serebii.net/pokemongo/pokemon/051.png",
+        "name": "Dugtrio",
+        "hit_points": "70",
+        "attack": "148",
+        "defense": "140",
+        "max_cp": "1168",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            35,
+            19
+        ],
+        "special_attacks_ids": [
+            72,
+            26,
+            50
+        ],
+        "types_ids": [
+            10
+        ]
+    },
+    {
+        "id": 52,
+        "img_url": "http://serebii.net/pokemongo/pokemon/052.png",
+        "name": "Meowth",
+        "hit_points": "80",
+        "attack": "104",
+        "defense": "94",
+        "max_cp": "756",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            30,
+            2
+        ],
+        "special_attacks_ids": [
+            16,
+            51,
+            7
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 53,
+        "img_url": "http://serebii.net/pokemongo/pokemon/053.png",
+        "name": "Persian",
+        "hit_points": "130",
+        "attack": "156",
+        "defense": "146",
+        "max_cp": "1631",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            30,
+            10
+        ],
+        "special_attacks_ids": [
+            54,
+            56,
+            51
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 54,
+        "img_url": "http://serebii.net/pokemongo/pokemon/054.png",
+        "name": "Psyduck",
+        "hit_points": "100",
+        "attack": "132",
+        "defense": "112",
+        "max_cp": "1109",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            41,
+            39
+        ],
+        "special_attacks_ids": [
+            5,
+            14,
+            58
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 55,
+        "img_url": "http://serebii.net/pokemongo/pokemon/055.png",
+        "name": "Golduck",
+        "hit_points": "160",
+        "attack": "194",
+        "defense": "176",
+        "max_cp": "2386",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            6,
+            39
+        ],
+        "special_attacks_ids": [
+            38,
+            41,
+            59
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 56,
+        "img_url": "http://serebii.net/pokemongo/pokemon/056.png",
+        "name": "Mankey",
+        "hit_points": "80",
+        "attack": "112",
+        "defense": "96",
+        "max_cp": "878",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            15,
+            30
+        ],
+        "special_attacks_ids": [
+            9,
+            14,
+            46
+        ],
+        "types_ids": [
+            11
+        ]
+    },
+    {
+        "id": 57,
+        "img_url": "http://serebii.net/pokemongo/pokemon/057.png",
+        "name": "Primeape",
+        "hit_points": "130",
+        "attack": "178",
+        "defense": "150",
+        "max_cp": "1864",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            15,
+            17
+        ],
+        "special_attacks_ids": [
+            51,
+            14,
+            46
+        ],
+        "types_ids": [
+            11
+        ]
+    },
+    {
+        "id": 58,
+        "img_url": "http://serebii.net/pokemongo/pokemon/058.png",
+        "name": "Growlithe",
+        "hit_points": "110",
+        "attack": "156",
+        "defense": "110",
+        "max_cp": "1335",
+        "catch_rate": "24%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            9,
+            2
+        ],
+        "special_attacks_ids": [
+            31,
+            7,
+            32
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 59,
+        "img_url": "http://serebii.net/pokemongo/pokemon/059.png",
+        "name": "Arcanine",
+        "hit_points": "180",
+        "attack": "230",
+        "defense": "180",
+        "max_cp": "2983",
+        "catch_rate": "8%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            11,
+            2
+        ],
+        "special_attacks_ids": [
+            27,
+            13,
+            32
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 60,
+        "img_url": "http://serebii.net/pokemongo/pokemon/060.png",
+        "name": "Poliwag",
+        "hit_points": "80",
+        "attack": "108",
+        "defense": "98",
+        "max_cp": "795",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            3,
+            19
+        ],
+        "special_attacks_ids": [
+            7,
+            11,
+            50
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 61,
+        "img_url": "http://serebii.net/pokemongo/pokemon/061.png",
+        "name": "Poliwhirl",
+        "hit_points": "130",
+        "attack": "132",
+        "defense": "132",
+        "max_cp": "1340",
+        "catch_rate": "20%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            3,
+            19
+        ],
+        "special_attacks_ids": [
+            63,
+            11,
+            50
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 62,
+        "img_url": "http://serebii.net/pokemongo/pokemon/062.png",
+        "name": "Poliwrath",
+        "hit_points": "180",
+        "attack": "180",
+        "defense": "202",
+        "max_cp": "2505",
+        "catch_rate": "10%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            3,
+            19
+        ],
+        "special_attacks_ids": [
+            42,
+            38,
+            74
+        ],
+        "types_ids": [
+            11,
+            5
+        ]
+    },
+    {
+        "id": 63,
+        "img_url": "http://serebii.net/pokemongo/pokemon/063.png",
+        "name": "Abra",
+        "hit_points": "50",
+        "attack": "110",
+        "defense": "76",
+        "max_cp": "600",
+        "catch_rate": "40%",
+        "flee_rate": "99%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            41
+        ],
+        "special_attacks_ids": [
+            65,
+            66,
+            60
+        ],
+        "types_ids": [
+            12
+        ]
+    },
+    {
+        "id": 64,
+        "img_url": "http://serebii.net/pokemongo/pokemon/064.png",
+        "name": "Kadabra",
+        "hit_points": "80",
+        "attack": "150",
+        "defense": "112",
+        "max_cp": "1131",
+        "catch_rate": "20%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            6,
+            25
+        ],
+        "special_attacks_ids": [
+            65,
+            17,
+            58
+        ],
+        "types_ids": [
+            12
+        ]
+    },
+    {
+        "id": 65,
+        "img_url": "http://serebii.net/pokemongo/pokemon/065.png",
+        "name": "Alakazam",
+        "hit_points": "110",
+        "attack": "186",
+        "defense": "152",
+        "max_cp": "1813",
+        "catch_rate": "10%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            6,
+            25
+        ],
+        "special_attacks_ids": [
+            65,
+            17,
+            59
+        ],
+        "types_ids": [
+            12
+        ]
+    },
+    {
+        "id": 66,
+        "img_url": "http://serebii.net/pokemongo/pokemon/066.png",
+        "name": "Machop",
+        "hit_points": "140",
+        "attack": "118",
+        "defense": "96",
+        "max_cp": "1089",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            17,
+            15
+        ],
+        "special_attacks_ids": [
+            9,
+            14,
+            46
+        ],
+        "types_ids": [
+            11
+        ]
+    },
+    {
+        "id": 67,
+        "img_url": "http://serebii.net/pokemongo/pokemon/067.png",
+        "name": "Machoke",
+        "hit_points": "160",
+        "attack": "154",
+        "defense": "144",
+        "max_cp": "1760",
+        "catch_rate": "20%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            17,
+            15
+        ],
+        "special_attacks_ids": [
+            9,
+            14,
+            74
+        ],
+        "types_ids": [
+            11
+        ]
+    },
+    {
+        "id": 68,
+        "img_url": "http://serebii.net/pokemongo/pokemon/068.png",
+        "name": "Machamp",
+        "hit_points": "180",
+        "attack": "198",
+        "defense": "180",
+        "max_cp": "2594",
+        "catch_rate": "10%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            5,
+            15
+        ],
+        "special_attacks_ids": [
+            72,
+            14,
+            74
+        ],
+        "types_ids": [
+            11
+        ]
+    },
+    {
+        "id": 69,
+        "img_url": "http://serebii.net/pokemongo/pokemon/069.png",
+        "name": "Bellsprout",
+        "hit_points": "100",
+        "attack": "158",
+        "defense": "78",
+        "max_cp": "1117",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            1,
+            38
+        ],
+        "special_attacks_ids": [
+            68,
+            57,
+            82
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 70,
+        "img_url": "http://serebii.net/pokemongo/pokemon/070.png",
+        "name": "Weepinbell",
+        "hit_points": "130",
+        "attack": "190",
+        "defense": "110",
+        "max_cp": "1723",
+        "catch_rate": "20%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            1,
+            27
+        ],
+        "special_attacks_ids": [
+            68,
+            57,
+            64
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 71,
+        "img_url": "http://serebii.net/pokemongo/pokemon/071.png",
+        "name": "Victreebel",
+        "hit_points": "160",
+        "attack": "222",
+        "defense": "152",
+        "max_cp": "2530",
+        "catch_rate": "10%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            1,
+            27
+        ],
+        "special_attacks_ids": [
+            68,
+            45,
+            70
+        ],
+        "types_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 72,
+        "img_url": "http://serebii.net/pokemongo/pokemon/072.png",
+        "name": "Tentacool",
+        "hit_points": "80",
+        "attack": "106",
+        "defense": "136",
+        "max_cp": "905",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            3,
+            23
+        ],
+        "special_attacks_ids": [
+            11,
+            81,
+            82
+        ],
+        "types_ids": [
+            1,
+            5
+        ]
+    },
+    {
+        "id": 73,
+        "img_url": "http://serebii.net/pokemongo/pokemon/073.png",
+        "name": "Tentacruel",
+        "hit_points": "160",
+        "attack": "170",
+        "defense": "196",
+        "max_cp": "2220",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            1,
+            22
+        ],
+        "special_attacks_ids": [
+            6,
+            38,
+            69
+        ],
+        "types_ids": [
+            1,
+            5
+        ]
+    },
+    {
+        "id": 74,
+        "img_url": "http://serebii.net/pokemongo/pokemon/074.png",
+        "name": "Geodude",
+        "hit_points": "80",
+        "attack": "106",
+        "defense": "118",
+        "max_cp": "849",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            29,
+            36
+        ],
+        "special_attacks_ids": [
+            61,
+            18,
+            62
+        ],
+        "types_ids": [
+            10,
+            13
+        ]
+    },
+    {
+        "id": 75,
+        "img_url": "http://serebii.net/pokemongo/pokemon/075.png",
+        "name": "Graveler",
+        "hit_points": "110",
+        "attack": "142",
+        "defense": "156",
+        "max_cp": "1433",
+        "catch_rate": "20%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            29,
+            19
+        ],
+        "special_attacks_ids": [
+            61,
+            18,
+            72
+        ],
+        "types_ids": [
+            10,
+            13
+        ]
+    },
+    {
+        "id": 76,
+        "img_url": "http://serebii.net/pokemongo/pokemon/076.png",
+        "name": "Golem",
+        "hit_points": "160",
+        "attack": "176",
+        "defense": "198",
+        "max_cp": "2303",
+        "catch_rate": "10%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            29,
+            19
+        ],
+        "special_attacks_ids": [
+            3,
+            26,
+            72
+        ],
+        "types_ids": [
+            10,
+            13
+        ]
+    },
+    {
+        "id": 77,
+        "img_url": "http://serebii.net/pokemongo/pokemon/077.png",
+        "name": "Ponyta",
+        "hit_points": "100",
+        "attack": "168",
+        "defense": "138",
+        "max_cp": "1516",
+        "catch_rate": "32%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            36,
+            9
+        ],
+        "special_attacks_ids": [
+            31,
+            27,
+            30
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 78,
+        "img_url": "http://serebii.net/pokemongo/pokemon/078.png",
+        "name": "Rapidash",
+        "hit_points": "130",
+        "attack": "200",
+        "defense": "170",
+        "max_cp": "2199",
+        "catch_rate": "12%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            17,
+            9
+        ],
+        "special_attacks_ids": [
+            35,
+            27,
+            25
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 79,
+        "img_url": "http://serebii.net/pokemongo/pokemon/079.png",
+        "name": "Slowpoke",
+        "hit_points": "180",
+        "attack": "110",
+        "defense": "110",
+        "max_cp": "1218",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            39,
+            6
+        ],
+        "special_attacks_ids": [
+            59,
+            81,
+            60
+        ],
+        "types_ids": [
+            12,
+            5
+        ]
+    },
+    {
+        "id": 80,
+        "img_url": "http://serebii.net/pokemongo/pokemon/080.png",
+        "name": "Slowbro",
+        "hit_points": "190",
+        "attack": "184",
+        "defense": "198",
+        "max_cp": "2597",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            39,
+            6
+        ],
+        "special_attacks_ids": [
+            59,
+            81,
+            41
+        ],
+        "types_ids": [
+            12,
+            5
+        ]
+    },
+    {
+        "id": 81,
+        "img_url": "http://serebii.net/pokemongo/pokemon/081.png",
+        "name": "Magnemite",
+        "hit_points": "50",
+        "attack": "128",
+        "defense": "138",
+        "max_cp": "890",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            32,
+            37
+        ],
+        "special_attacks_ids": [
+            47,
+            20,
+            78
+        ],
+        "types_ids": [
+            14,
+            7
+        ]
+    },
+    {
+        "id": 82,
+        "img_url": "http://serebii.net/pokemongo/pokemon/082.png",
+        "name": "Magneton",
+        "hit_points": "100",
+        "attack": "186",
+        "defense": "180",
+        "max_cp": "1879",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            32,
+            37
+        ],
+        "special_attacks_ids": [
+            47,
+            20,
+            33
+        ],
+        "types_ids": [
+            14,
+            7
+        ]
+    },
+    {
+        "id": 83,
+        "img_url": "http://serebii.net/pokemongo/pokemon/083.png",
+        "name": "Farfetch'd",
+        "hit_points": "104",
+        "attack": "138",
+        "defense": "132",
+        "max_cp": "1263",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            13,
+            7
+        ],
+        "special_attacks_ids": [
+            2,
+            1,
+            45
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 84,
+        "img_url": "http://serebii.net/pokemongo/pokemon/084.png",
+        "name": "Doduo",
+        "hit_points": "70",
+        "attack": "126",
+        "defense": "96",
+        "max_cp": "855",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            21,
+            26
+        ],
+        "special_attacks_ids": [
+            75,
+            1,
+            24
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 85,
+        "img_url": "http://serebii.net/pokemongo/pokemon/085.png",
+        "name": "Dodrio",
+        "hit_points": "120",
+        "attack": "182",
+        "defense": "150",
+        "max_cp": "1836",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            34,
+            10
+        ],
+        "special_attacks_ids": [
+            24,
+            1,
+            2
+        ],
+        "types_ids": [
+            4,
+            8
+        ]
+    },
+    {
+        "id": 86,
+        "img_url": "http://serebii.net/pokemongo/pokemon/086.png",
+        "name": "Seel",
+        "hit_points": "130",
+        "attack": "104",
+        "defense": "138",
+        "max_cp": "1107",
+        "catch_rate": "40%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            39,
+            14
+        ],
+        "special_attacks_ids": [
+            4,
+            43,
+            5
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 87,
+        "img_url": "http://serebii.net/pokemongo/pokemon/087.png",
+        "name": "Dewgong",
+        "hit_points": "180",
+        "attack": "156",
+        "defense": "192",
+        "max_cp": "2145",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            12,
+            14
+        ],
+        "special_attacks_ids": [
+            4,
+            43,
+            6
+        ],
+        "types_ids": [
+            15,
+            5
+        ]
+    },
+    {
+        "id": 88,
+        "img_url": "http://serebii.net/pokemongo/pokemon/088.png",
+        "name": "Grimer",
+        "hit_points": "160",
+        "attack": "124",
+        "defense": "110",
+        "max_cp": "1284",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            20,
+            1
+        ],
+        "special_attacks_ids": [
+            67,
+            68,
+            50
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 89,
+        "img_url": "http://serebii.net/pokemongo/pokemon/089.png",
+        "name": "Muk",
+        "hit_points": "210",
+        "attack": "180",
+        "defense": "188",
+        "max_cp": "2602",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            22,
+            1
+        ],
+        "special_attacks_ids": [
+            69,
+            68,
+            16
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 90,
+        "img_url": "http://serebii.net/pokemongo/pokemon/090.png",
+        "name": "Shellder",
+        "hit_points": "60",
+        "attack": "120",
+        "defense": "112",
+        "max_cp": "822",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            14,
+            36
+        ],
+        "special_attacks_ids": [
+            43,
+            81,
+            11
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 91,
+        "img_url": "http://serebii.net/pokemongo/pokemon/091.png",
+        "name": "Cloyster",
+        "hit_points": "100",
+        "attack": "196",
+        "defense": "196",
+        "max_cp": "2052",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            14,
+            12
+        ],
+        "special_attacks_ids": [
+            43,
+            6,
+            38
+        ],
+        "types_ids": [
+            15,
+            5
+        ]
+    },
+    {
+        "id": 92,
+        "img_url": "http://serebii.net/pokemongo/pokemon/092.png",
+        "name": "Gastly",
+        "hit_points": "60",
+        "attack": "136",
+        "defense": "82",
+        "max_cp": "804",
+        "catch_rate": "32%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            16,
+            35
+        ],
+        "special_attacks_ids": [
+            16,
+            68,
+            52
+        ],
+        "types_ids": [
+            1,
+            16
+        ]
+    },
+    {
+        "id": 93,
+        "img_url": "http://serebii.net/pokemongo/pokemon/093.png",
+        "name": "Haunter",
+        "hit_points": "90",
+        "attack": "172",
+        "defense": "118",
+        "max_cp": "1380",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            16,
+            31
+        ],
+        "special_attacks_ids": [
+            16,
+            68,
+            65
+        ],
+        "types_ids": [
+            1,
+            16
+        ]
+    },
+    {
+        "id": 94,
+        "img_url": "http://serebii.net/pokemongo/pokemon/094.png",
+        "name": "Gengar",
+        "hit_points": "120",
+        "attack": "204",
+        "defense": "156",
+        "max_cp": "2078",
+        "catch_rate": "8%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            31,
+            35
+        ],
+        "special_attacks_ids": [
+            16,
+            69,
+            65
+        ],
+        "types_ids": [
+            1,
+            16
+        ]
+    },
+    {
+        "id": 95,
+        "img_url": "http://serebii.net/pokemongo/pokemon/095.png",
+        "name": "Onix",
+        "hit_points": "70",
+        "attack": "90",
+        "defense": "186",
+        "max_cp": "857",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            29,
+            36
+        ],
+        "special_attacks_ids": [
+            61,
+            72,
+            44
+        ],
+        "types_ids": [
+            10,
+            13
+        ]
+    },
+    {
+        "id": 96,
+        "img_url": "http://serebii.net/pokemongo/pokemon/096.png",
+        "name": "Drowzee",
+        "hit_points": "120",
+        "attack": "104",
+        "defense": "140",
+        "max_cp": "1075",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            24,
+            6
+        ],
+        "special_attacks_ids": [
+            59,
+            60,
+            58
+        ],
+        "types_ids": [
+            12
+        ]
+    },
+    {
+        "id": 97,
+        "img_url": "http://serebii.net/pokemongo/pokemon/097.png",
+        "name": "Hypno",
+        "hit_points": "170",
+        "attack": "162",
+        "defense": "196",
+        "max_cp": "2184",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            41,
+            6
+        ],
+        "special_attacks_ids": [
+            59,
+            60,
+            65
+        ],
+        "types_ids": [
+            12
+        ]
+    },
+    {
+        "id": 98,
+        "img_url": "http://serebii.net/pokemongo/pokemon/098.png",
+        "name": "Krabby",
+        "hit_points": "60",
+        "attack": "116",
+        "defense": "110",
+        "max_cp": "792",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            3,
+            19
+        ],
+        "special_attacks_ids": [
+            80,
+            81,
+            11
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 99,
+        "img_url": "http://serebii.net/pokemongo/pokemon/099.png",
+        "name": "Kingler",
+        "hit_points": "110",
+        "attack": "178",
+        "defense": "168",
+        "max_cp": "1823",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            18,
+            19
+        ],
+        "special_attacks_ids": [
+            80,
+            81,
+            83
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 100,
+        "img_url": "http://serebii.net/pokemongo/pokemon/100.png",
+        "name": "Voltorb",
+        "hit_points": "80",
+        "attack": "102",
+        "defense": "124",
+        "max_cp": "839",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            36,
+            32
+        ],
+        "special_attacks_ids": [
+            78,
+            20,
+            66
+        ],
+        "types_ids": [
+            7
+        ]
+    },
+    {
+        "id": 101,
+        "img_url": "http://serebii.net/pokemongo/pokemon/101.png",
+        "name": "Electrode",
+        "hit_points": "120",
+        "attack": "150",
+        "defense": "174",
+        "max_cp": "1646",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            36,
+            32
+        ],
+        "special_attacks_ids": [
+            78,
+            20,
+            39
+        ],
+        "types_ids": [
+            7
+        ]
+    },
+    {
+        "id": 102,
+        "img_url": "http://serebii.net/pokemongo/pokemon/102.png",
+        "name": "Exeggcute",
+        "hit_points": "120",
+        "attack": "110",
+        "defense": "132",
+        "max_cp": "1099",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            6
+        ],
+        "special_attacks_ids": [
+            59,
+            64,
+            3
+        ],
+        "types_ids": [
+            12,
+            2
+        ]
+    },
+    {
+        "id": 103,
+        "img_url": "http://serebii.net/pokemongo/pokemon/103.png",
+        "name": "Exeggutor",
+        "hit_points": "190",
+        "attack": "232",
+        "defense": "164",
+        "max_cp": "2955",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            6,
+            41
+        ],
+        "special_attacks_ids": [
+            59,
+            64,
+            70
+        ],
+        "types_ids": [
+            12,
+            2
+        ]
+    },
+    {
+        "id": 104,
+        "img_url": "http://serebii.net/pokemongo/pokemon/104.png",
+        "name": "Cubone",
+        "hit_points": "100",
+        "attack": "102",
+        "defense": "150",
+        "max_cp": "1006",
+        "catch_rate": "32%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            28,
+            20
+        ],
+        "special_attacks_ids": [
+            8,
+            18,
+            13
+        ],
+        "types_ids": [
+            10
+        ]
+    },
+    {
+        "id": 105,
+        "img_url": "http://serebii.net/pokemongo/pokemon/105.png",
+        "name": "Marowak",
+        "hit_points": "120",
+        "attack": "140",
+        "defense": "202",
+        "max_cp": "1656",
+        "catch_rate": "12%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            28,
+            20
+        ],
+        "special_attacks_ids": [
+            8,
+            18,
+            26
+        ],
+        "types_ids": [
+            10
+        ]
+    },
+    {
+        "id": 106,
+        "img_url": "http://serebii.net/pokemongo/pokemon/106.png",
+        "name": "Hitmonlee",
+        "hit_points": "100",
+        "attack": "148",
+        "defense": "172",
+        "max_cp": "1492",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            17,
+            28
+        ],
+        "special_attacks_ids": [
+            46,
+            72,
+            71
+        ],
+        "types_ids": [
+            11
+        ]
+    },
+    {
+        "id": 107,
+        "img_url": "http://serebii.net/pokemongo/pokemon/107.png",
+        "name": "Hitmonchan",
+        "hit_points": "100",
+        "attack": "138",
+        "defense": "204",
+        "max_cp": "1516",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            5,
+            28
+        ],
+        "special_attacks_ids": [
+            28,
+            42,
+            77,
+            9
+        ],
+        "types_ids": [
+            11
+        ]
+    },
+    {
+        "id": 108,
+        "img_url": "http://serebii.net/pokemongo/pokemon/108.png",
+        "name": "Lickitung",
+        "hit_points": "180",
+        "attack": "126",
+        "defense": "160",
+        "max_cp": "1626",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            16,
+            41
+        ],
+        "special_attacks_ids": [
+            39,
+            71,
+            57
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 109,
+        "img_url": "http://serebii.net/pokemongo/pokemon/109.png",
+        "name": "Koffing",
+        "hit_points": "80",
+        "attack": "136",
+        "defense": "142",
+        "max_cp": "1151",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            36,
+            1
+        ],
+        "special_attacks_ids": [
+            16,
+            67,
+            68
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 110,
+        "img_url": "http://serebii.net/pokemongo/pokemon/110.png",
+        "name": "Weezing",
+        "hit_points": "130",
+        "attack": "190",
+        "defense": "198",
+        "max_cp": "2250",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            36,
+            1
+        ],
+        "special_attacks_ids": [
+            16,
+            65,
+            68
+        ],
+        "types_ids": [
+            1
+        ]
+    },
+    {
+        "id": 111,
+        "img_url": "http://serebii.net/pokemongo/pokemon/111.png",
+        "name": "Rhyhorn",
+        "hit_points": "160",
+        "attack": "110",
+        "defense": "116",
+        "max_cp": "1182",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            28,
+            20
+        ],
+        "special_attacks_ids": [
+            13,
+            71,
+            36
+        ],
+        "types_ids": [
+            13,
+            10
+        ]
+    },
+    {
+        "id": 112,
+        "img_url": "http://serebii.net/pokemongo/pokemon/112.png",
+        "name": "Rhydon",
+        "hit_points": "210",
+        "attack": "116",
+        "defense": "160",
+        "max_cp": "2243",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            28,
+            20
+        ],
+        "special_attacks_ids": [
+            26,
+            72,
+            48
+        ],
+        "types_ids": [
+            13,
+            10
+        ]
+    },
+    {
+        "id": 113,
+        "img_url": "http://serebii.net/pokemongo/pokemon/113.png",
+        "name": "Chansey",
+        "hit_points": "500",
+        "attack": "40",
+        "defense": "60",
+        "max_cp": "675",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            24,
+            41
+        ],
+        "special_attacks_ids": [
+            17,
+            58,
+            59
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 114,
+        "img_url": "http://serebii.net/pokemongo/pokemon/114.png",
+        "name": "Tangela",
+        "hit_points": "130",
+        "attack": "164",
+        "defense": "152",
+        "max_cp": "1739",
+        "catch_rate": "32%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            38
+        ],
+        "special_attacks_ids": [
+            68,
+            70,
+            57
+        ],
+        "types_ids": [
+            2
+        ]
+    },
+    {
+        "id": 115,
+        "img_url": "http://serebii.net/pokemongo/pokemon/115.png",
+        "name": "Kangaskhan",
+        "hit_points": "210",
+        "attack": "142",
+        "defense": "178",
+        "max_cp": "2043",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            17,
+            20
+        ],
+        "special_attacks_ids": [
+            26,
+            9,
+            71
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 116,
+        "img_url": "http://serebii.net/pokemongo/pokemon/116.png",
+        "name": "Horsea",
+        "hit_points": "60",
+        "attack": "122",
+        "defense": "100",
+        "max_cp": "794",
+        "catch_rate": "40%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            39,
+            3
+        ],
+        "special_attacks_ids": [
+            11,
+            22,
+            33
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 117,
+        "img_url": "http://serebii.net/pokemongo/pokemon/117.png",
+        "name": "Seadra",
+        "hit_points": "110",
+        "attack": "176",
+        "defense": "150",
+        "max_cp": "1713",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            39,
+            8
+        ],
+        "special_attacks_ids": [
+            38,
+            22,
+            6
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 118,
+        "img_url": "http://serebii.net/pokemongo/pokemon/118.png",
+        "name": "Goldeen",
+        "hit_points": "90",
+        "attack": "112",
+        "defense": "126",
+        "max_cp": "965",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            19,
+            21
+        ],
+        "special_attacks_ids": [
+            5,
+            36,
+            81
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 119,
+        "img_url": "http://serebii.net/pokemongo/pokemon/119.png",
+        "name": "Seaking",
+        "hit_points": "160",
+        "attack": "172",
+        "defense": "160",
+        "max_cp": "2043",
+        "catch_rate": "16%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            22,
+            21
+        ],
+        "special_attacks_ids": [
+            25,
+            48,
+            43
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 120,
+        "img_url": "http://serebii.net/pokemongo/pokemon/120.png",
+        "name": "Staryu",
+        "hit_points": "60",
+        "attack": "130",
+        "defense": "128",
+        "max_cp": "937",
+        "catch_rate": "40%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            39,
+            26
+        ],
+        "special_attacks_ids": [
+            11,
+            56,
+            75
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 121,
+        "img_url": "http://serebii.net/pokemongo/pokemon/121.png",
+        "name": "Starmie",
+        "hit_points": "120",
+        "attack": "194",
+        "defense": "192",
+        "max_cp": "2182",
+        "catch_rate": "16%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            39,
+            26
+        ],
+        "special_attacks_ids": [
+            38,
+            56,
+            58
+        ],
+        "types_ids": [
+            12,
+            5
+        ]
+    },
+    {
+        "id": 122,
+        "img_url": "http://serebii.net/pokemongo/pokemon/122.png",
+        "name": "Mr. Mime",
+        "hit_points": "80",
+        "attack": "154",
+        "defense": "196",
+        "max_cp": "1494",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            6,
+            41
+        ],
+        "special_attacks_ids": [
+            65,
+            58,
+            59
+        ],
+        "types_ids": [
+            9,
+            12
+        ]
+    },
+    {
+        "id": 123,
+        "img_url": "http://serebii.net/pokemongo/pokemon/123.png",
+        "name": "Scyther",
+        "hit_points": "140",
+        "attack": "176",
+        "defense": "180",
+        "max_cp": "2073",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            34,
+            13
+        ],
+        "special_attacks_ids": [
+            12,
+            83,
+            51
+        ],
+        "types_ids": [
+            4,
+            6
+        ]
+    },
+    {
+        "id": 124,
+        "img_url": "http://serebii.net/pokemongo/pokemon/124.png",
+        "name": "Jynx",
+        "hit_points": "130",
+        "attack": "172",
+        "defense": "134",
+        "max_cp": "1716",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            24,
+            12
+        ],
+        "special_attacks_ids": [
+            60,
+            42,
+            23
+        ],
+        "types_ids": [
+            12,
+            15
+        ]
+    },
+    {
+        "id": 125,
+        "img_url": "http://serebii.net/pokemongo/pokemon/125.png",
+        "name": "Electabuzz",
+        "hit_points": "130",
+        "attack": "198",
+        "defense": "160",
+        "max_cp": "2119",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            17,
+            37
+        ],
+        "special_attacks_ids": [
+            78,
+            76,
+            77
+        ],
+        "types_ids": [
+            7
+        ]
+    },
+    {
+        "id": 126,
+        "img_url": "http://serebii.net/pokemongo/pokemon/126.png",
+        "name": "Magmar",
+        "hit_points": "130",
+        "attack": "214",
+        "defense": "158",
+        "max_cp": "2265",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            15,
+            9
+        ],
+        "special_attacks_ids": [
+            27,
+            32,
+            28
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 127,
+        "img_url": "http://serebii.net/pokemongo/pokemon/127.png",
+        "name": "Pinsir",
+        "hit_points": "130",
+        "attack": "184",
+        "defense": "186",
+        "max_cp": "2121",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            13,
+            28
+        ],
+        "special_attacks_ids": [
+            74,
+            80,
+            83
+        ],
+        "types_ids": [
+            6
+        ]
+    },
+    {
+        "id": 128,
+        "img_url": "http://serebii.net/pokemongo/pokemon/128.png",
+        "name": "Tauros",
+        "hit_points": "150",
+        "attack": "148",
+        "defense": "184",
+        "max_cp": "1844",
+        "catch_rate": "24%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            36,
+            41
+        ],
+        "special_attacks_ids": [
+            26,
+            44,
+            36
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 129,
+        "img_url": "http://serebii.net/pokemongo/pokemon/129.png",
+        "name": "Magikarp",
+        "hit_points": "40",
+        "attack": "42",
+        "defense": "84",
+        "max_cp": "262",
+        "catch_rate": "56%",
+        "flee_rate": "15%",
+        "candies_to_evolve": "400",
+        "eggs_distance": "2km",
+        "fast_attacks_ids": [
+            33
+        ],
+        "special_attacks_ids": [
+            73
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 130,
+        "img_url": "http://serebii.net/pokemongo/pokemon/130.png",
+        "name": "Gyarados",
+        "hit_points": "190",
+        "attack": "192",
+        "defense": "196",
+        "max_cp": "2688",
+        "catch_rate": "8%",
+        "flee_rate": "7%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            2,
+            8
+        ],
+        "special_attacks_ids": [
+            79,
+            38,
+            22
+        ],
+        "types_ids": [
+            4,
+            5
+        ]
+    },
+    {
+        "id": 131,
+        "img_url": "http://serebii.net/pokemongo/pokemon/131.png",
+        "name": "Lapras",
+        "hit_points": "260",
+        "attack": "186",
+        "defense": "190",
+        "max_cp": "2980",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            12,
+            14
+        ],
+        "special_attacks_ids": [
+            41,
+            22,
+            6
+        ],
+        "types_ids": [
+            15,
+            5
+        ]
+    },
+    {
+        "id": 132,
+        "img_url": "http://serebii.net/pokemongo/pokemon/132.png",
+        "name": "Ditto",
+        "hit_points": "96",
+        "attack": "110",
+        "defense": "110",
+        "max_cp": "919",
+        "catch_rate": "16%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            24
+        ],
+        "special_attacks_ids": [
+            73
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 133,
+        "img_url": "http://serebii.net/pokemongo/pokemon/133.png",
+        "name": "Eevee",
+        "hit_points": "110",
+        "attack": "114",
+        "defense": "128",
+        "max_cp": "1077",
+        "catch_rate": "32%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            36,
+            26
+        ],
+        "special_attacks_ids": [
+            7,
+            18,
+            75
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 134,
+        "img_url": "http://serebii.net/pokemongo/pokemon/134.png",
+        "name": "Vaporeon",
+        "hit_points": "260",
+        "attack": "186",
+        "defense": "168",
+        "max_cp": "2816",
+        "catch_rate": "12%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            39
+        ],
+        "special_attacks_ids": [
+            5,
+            81,
+            38
+        ],
+        "types_ids": [
+            5
+        ]
+    },
+    {
+        "id": 135,
+        "img_url": "http://serebii.net/pokemongo/pokemon/135.png",
+        "name": "Jolteon",
+        "hit_points": "130",
+        "attack": "192",
+        "defense": "174",
+        "max_cp": "2140",
+        "catch_rate": "12%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            37
+        ],
+        "special_attacks_ids": [
+            78,
+            20,
+            76
+        ],
+        "types_ids": [
+            7
+        ]
+    },
+    {
+        "id": 136,
+        "img_url": "http://serebii.net/pokemongo/pokemon/136.png",
+        "name": "Flareon",
+        "hit_points": "130",
+        "attack": "238",
+        "defense": "178",
+        "max_cp": "2643",
+        "catch_rate": "12%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            9
+        ],
+        "special_attacks_ids": [
+            32,
+            27,
+            35
+        ],
+        "types_ids": [
+            3
+        ]
+    },
+    {
+        "id": 137,
+        "img_url": "http://serebii.net/pokemongo/pokemon/137.png",
+        "name": "Porygon",
+        "hit_points": "130",
+        "attack": "156",
+        "defense": "158",
+        "max_cp": "1691",
+        "catch_rate": "32%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "5km",
+        "fast_attacks_ids": [
+            36,
+            26
+        ],
+        "special_attacks_ids": [
+            20,
+            58,
+            66
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 138,
+        "img_url": "http://serebii.net/pokemongo/pokemon/138.png",
+        "name": "Omanyte",
+        "hit_points": "70",
+        "attack": "132",
+        "defense": "160",
+        "max_cp": "1119",
+        "catch_rate": "32%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            39,
+            19
+        ],
+        "special_attacks_ids": [
+            62,
+            3,
+            10
+        ],
+        "types_ids": [
+            5,
+            13
+        ]
+    },
+    {
+        "id": 139,
+        "img_url": "http://serebii.net/pokemongo/pokemon/139.png",
+        "name": "Omastar",
+        "hit_points": "140",
+        "attack": "180",
+        "defense": "202",
+        "max_cp": "2233",
+        "catch_rate": "12%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            39,
+            29
+        ],
+        "special_attacks_ids": [
+            61,
+            3,
+            38
+        ],
+        "types_ids": [
+            5,
+            13
+        ]
+    },
+    {
+        "id": 140,
+        "img_url": "http://serebii.net/pokemongo/pokemon/140.png",
+        "name": "Kabuto",
+        "hit_points": "60",
+        "attack": "148",
+        "defense": "142",
+        "max_cp": "1104",
+        "catch_rate": "32%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "50",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            30,
+            19
+        ],
+        "special_attacks_ids": [
+            4,
+            62,
+            3
+        ],
+        "types_ids": [
+            5,
+            13
+        ]
+    },
+    {
+        "id": 141,
+        "img_url": "http://serebii.net/pokemongo/pokemon/141.png",
+        "name": "Kabutops",
+        "hit_points": "120",
+        "attack": "190",
+        "defense": "190",
+        "max_cp": "2130",
+        "catch_rate": "12%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            13,
+            19
+        ],
+        "special_attacks_ids": [
+            81,
+            72,
+            3
+        ],
+        "types_ids": [
+            5,
+            13
+        ]
+    },
+    {
+        "id": 142,
+        "img_url": "http://serebii.net/pokemongo/pokemon/142.png",
+        "name": "Aerodactyl",
+        "hit_points": "160",
+        "attack": "182",
+        "defense": "162",
+        "max_cp": "2165",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            2,
+            34
+        ],
+        "special_attacks_ids": [
+            44,
+            39,
+            3
+        ],
+        "types_ids": [
+            4,
+            13
+        ]
+    },
+    {
+        "id": 143,
+        "img_url": "http://serebii.net/pokemongo/pokemon/143.png",
+        "name": "Snorlax",
+        "hit_points": "320",
+        "attack": "180",
+        "defense": "180",
+        "max_cp": "3112",
+        "catch_rate": "16%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            16,
+            41
+        ],
+        "special_attacks_ids": [
+            39,
+            26,
+            7
+        ],
+        "types_ids": [
+            8
+        ]
+    },
+    {
+        "id": 144,
+        "img_url": "http://serebii.net/pokemongo/pokemon/144.png",
+        "name": "Articuno",
+        "hit_points": "180",
+        "attack": "198",
+        "defense": "242",
+        "max_cp": "2978",
+        "catch_rate": "0%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            12
+        ],
+        "special_attacks_ids": [
+            41,
+            43,
+            6
+        ],
+        "types_ids": [
+            4,
+            15
+        ]
+    },
+    {
+        "id": 145,
+        "img_url": "http://serebii.net/pokemongo/pokemon/145.png",
+        "name": "Zapdos",
+        "hit_points": "180",
+        "attack": "232",
+        "defense": "194",
+        "max_cp": "3114",
+        "catch_rate": "0%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            37
+        ],
+        "special_attacks_ids": [
+            20,
+            78,
+            76
+        ],
+        "types_ids": [
+            4,
+            7
+        ]
+    },
+    {
+        "id": 146,
+        "img_url": "http://serebii.net/pokemongo/pokemon/146.png",
+        "name": "Moltres",
+        "hit_points": "180",
+        "attack": "242",
+        "defense": "194",
+        "max_cp": "3240",
+        "catch_rate": "0%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            9
+        ],
+        "special_attacks_ids": [
+            27,
+            35,
+            32
+        ],
+        "types_ids": [
+            4,
+            3
+        ]
+    },
+    {
+        "id": 147,
+        "img_url": "http://serebii.net/pokemongo/pokemon/147.png",
+        "name": "Dratini",
+        "hit_points": "82",
+        "attack": "128",
+        "defense": "110",
+        "max_cp": "983",
+        "catch_rate": "32%",
+        "flee_rate": "9%",
+        "candies_to_evolve": "25",
+        "eggs_distance": "10km",
+        "fast_attacks_ids": [
+            8
+        ],
+        "special_attacks_ids": [
+            82,
+            5,
+            79
+        ],
+        "types_ids": [
+            17
+        ]
+    },
+    {
+        "id": 148,
+        "img_url": "http://serebii.net/pokemongo/pokemon/148.png",
+        "name": "Dragonair",
+        "hit_points": "122",
+        "attack": "170",
+        "defense": "152",
+        "max_cp": "1747",
+        "catch_rate": "8%",
+        "flee_rate": "6%",
+        "candies_to_evolve": "100",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            8
+        ],
+        "special_attacks_ids": [
+            82,
+            5,
+            22
+        ],
+        "types_ids": [
+            17
+        ]
+    },
+    {
+        "id": 149,
+        "img_url": "http://serebii.net/pokemongo/pokemon/149.png",
+        "name": "Dragonite",
+        "hit_points": "182",
+        "attack": "250",
+        "defense": "212",
+        "max_cp": "3500",
+        "catch_rate": "4%",
+        "flee_rate": "5%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            8,
+            34
+        ],
+        "special_attacks_ids": [
+            39,
+            21,
+            22
+        ],
+        "types_ids": [
+            4,
+            17
+        ]
+    },
+    {
+        "id": 150,
+        "img_url": "http://serebii.net/pokemongo/pokemon/150.png",
+        "name": "Mewtwo",
+        "hit_points": "212",
+        "attack": "284",
+        "defense": "202",
+        "max_cp": "4144",
+        "catch_rate": "0%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            6,
+            25
+        ],
+        "special_attacks_ids": [
+            59,
+            65,
+            39
+        ],
+        "types_ids": [
+            12
+        ]
+    },
+    {
+        "id": 151,
+        "img_url": "http://serebii.net/pokemongo/pokemon/151.png",
+        "name": "Mew",
+        "hit_points": "200",
+        "attack": "220",
+        "defense": "220",
+        "max_cp": "3299",
+        "catch_rate": "0%",
+        "flee_rate": "10%",
+        "candies_to_evolve": "",
+        "eggs_distance": "Not in Eggs",
+        "fast_attacks_ids": [
+            24
+        ],
+        "special_attacks_ids": [
+            37,
+            26,
+            59,
+            22,
+            76,
+            49,
+            27,
+            70,
+            39
+        ],
+        "types_ids": [
+            12
+        ]
+    }
+]
