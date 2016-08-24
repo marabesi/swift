@@ -1,0 +1,749 @@
+{
+    "special_attacks": [
+        {
+            "id": 1,
+            "name": "Aerial Ace",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.9,
+            "energy_requirements": 4,
+            "type_id": 4
+        },
+        {
+            "id": 2,
+            "name": "Air Cutter",
+            "damage": 30,
+            "critical_hit_chance": 0.25,
+            "duration": 3.3,
+            "energy_requirements": 4,
+            "type_id": 4
+        },
+        {
+            "id": 3,
+            "name": "Ancient Power",
+            "damage": 35,
+            "critical_hit_chance": 0.05,
+            "duration": 3.6,
+            "energy_requirements": 4,
+            "type_id": 13
+        },
+        {
+            "id": 4,
+            "name": "Aqua Jet",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 2.35,
+            "energy_requirements": 5,
+            "type_id": 5
+        },
+        {
+            "id": 5,
+            "name": "Aqua Tail",
+            "damage": 45,
+            "critical_hit_chance": 0.05,
+            "duration": 2.35,
+            "energy_requirements": 2,
+            "type_id": 5
+        },
+        {
+            "id": 6,
+            "name": "Blizzard",
+            "damage": 100,
+            "critical_hit_chance": 0.05,
+            "duration": 3.9,
+            "energy_requirements": 1,
+            "type_id": 15
+        },
+        {
+            "id": 7,
+            "name": "Body Slam",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 1.56,
+            "energy_requirements": 2,
+            "type_id": 8
+        },
+        {
+            "id": 8,
+            "name": "Bone Club",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 1.6,
+            "energy_requirements": 4,
+            "type_id": 10
+        },
+        {
+            "id": 9,
+            "name": "Brick Break",
+            "damage": 30,
+            "critical_hit_chance": 0.25,
+            "duration": 1.6,
+            "energy_requirements": 3,
+            "type_id": 11
+        },
+        {
+            "id": 10,
+            "name": "Brine",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 2.4,
+            "energy_requirements": 5,
+            "type_id": 5
+        },
+        {
+            "id": 11,
+            "name": "Bubble Beam",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.9,
+            "energy_requirements": 4,
+            "type_id": 5
+        },
+        {
+            "id": 12,
+            "name": "Bug Buzz",
+            "damage": 75,
+            "critical_hit_chance": 0.05,
+            "duration": 4.25,
+            "energy_requirements": 2,
+            "type_id": 6
+        },
+        {
+            "id": 13,
+            "name": "Bulldoze",
+            "damage": 35,
+            "critical_hit_chance": 0.05,
+            "duration": 3.4,
+            "energy_requirements": 4,
+            "type_id": 10
+        },
+        {
+            "id": 14,
+            "name": "Cross Chop",
+            "damage": 60,
+            "critical_hit_chance": 0.25,
+            "duration": 2,
+            "energy_requirements": 1,
+            "type_id": 11
+        },
+        {
+            "id": 15,
+            "name": "Cross Poison",
+            "damage": 25,
+            "critical_hit_chance": 0.25,
+            "duration": 1.5,
+            "energy_requirements": 4,
+            "type_id": 1
+        },
+        {
+            "id": 16,
+            "name": "Dark Pulse",
+            "damage": 45,
+            "critical_hit_chance": 0.05,
+            "duration": 3.5,
+            "energy_requirements": 3
+        },
+        {
+            "id": 17,
+            "name": "Dazzling Gleam",
+            "damage": 55,
+            "critical_hit_chance": 0.05,
+            "duration": 4.2,
+            "energy_requirements": 3,
+            "type_id": 9
+        },
+        {
+            "id": 18,
+            "name": "Dig",
+            "damage": 70,
+            "critical_hit_chance": 0.05,
+            "duration": 5.8,
+            "energy_requirements": 3,
+            "type_id": 10
+        },
+        {
+            "id": 19,
+            "name": "Disarming Voice",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 3.9,
+            "energy_requirements": 5,
+            "type_id": 9
+        },
+        {
+            "id": 20,
+            "name": "Discharge",
+            "damage": 35,
+            "critical_hit_chance": 0.05,
+            "duration": 2.5,
+            "energy_requirements": 3,
+            "type_id": 7
+        },
+        {
+            "id": 21,
+            "name": "Dragon Claw",
+            "damage": 35,
+            "critical_hit_chance": 0.25,
+            "duration": 1.5,
+            "energy_requirements": 2,
+            "type_id": 17
+        },
+        {
+            "id": 22,
+            "name": "Dragon Pulse",
+            "damage": 65,
+            "critical_hit_chance": 0.05,
+            "duration": 3.6,
+            "energy_requirements": 2,
+            "type_id": 17
+        },
+        {
+            "id": 23,
+            "name": "Draining Kiss",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 2.8,
+            "energy_requirements": 5,
+            "type_id": 9
+        },
+        {
+            "id": 24,
+            "name": "Drill Peck",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 2.7,
+            "energy_requirements": 3,
+            "type_id": 4
+        },
+        {
+            "id": 25,
+            "name": "Drill Run",
+            "damage": 50,
+            "critical_hit_chance": 0.25,
+            "duration": 3.4,
+            "energy_requirements": 3,
+            "type_id": 10
+        },
+        {
+            "id": 26,
+            "name": "Earthquake",
+            "damage": 100,
+            "critical_hit_chance": 0.05,
+            "duration": 4.2,
+            "energy_requirements": 1,
+            "type_id": 10
+        },
+        {
+            "id": 27,
+            "name": "Fire Blast",
+            "damage": 100,
+            "critical_hit_chance": 0.05,
+            "duration": 4.1,
+            "energy_requirements": 1,
+            "type_id": 3
+        },
+        {
+            "id": 28,
+            "name": "Fire Punch",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 2.8,
+            "energy_requirements": 3,
+            "type_id": 3
+        },
+        {
+            "id": 29,
+            "name": "Flame Burst",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.1,
+            "energy_requirements": 4,
+            "type_id": 3
+        },
+        {
+            "id": 30,
+            "name": "Flame Charge",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 3.1,
+            "energy_requirements": 4,
+            "type_id": 3
+        },
+        {
+            "id": 31,
+            "name": "Flame Wheel",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 4.6,
+            "energy_requirements": 4,
+            "type_id": 3
+        },
+        {
+            "id": 32,
+            "name": "Flamethrower",
+            "damage": 55,
+            "critical_hit_chance": 0.05,
+            "duration": 2.9,
+            "energy_requirements": 2,
+            "type_id": 3
+        },
+        {
+            "id": 33,
+            "name": "Flash Cannon",
+            "damage": 60,
+            "critical_hit_chance": 0.05,
+            "duration": 3.9,
+            "energy_requirements": 3,
+            "type_id": 14
+        },
+        {
+            "id": 34,
+            "name": "Gunk Shot",
+            "damage": 65,
+            "critical_hit_chance": 0.05,
+            "duration": 3,
+            "energy_requirements": 1,
+            "type_id": 1
+        },
+        {
+            "id": 35,
+            "name": "Heat Wave",
+            "damage": 80,
+            "critical_hit_chance": 0.05,
+            "duration": 3.8,
+            "energy_requirements": 1,
+            "type_id": 3
+        },
+        {
+            "id": 36,
+            "name": "Horn Attack",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 2.2,
+            "energy_requirements": 4,
+            "type_id": 8
+        },
+        {
+            "id": 37,
+            "name": "Hurricane",
+            "damage": 80,
+            "critical_hit_chance": 0.05,
+            "duration": 3.2,
+            "energy_requirements": 1,
+            "type_id": 4
+        },
+        {
+            "id": 38,
+            "name": "Hydro Pump",
+            "damage": 90,
+            "critical_hit_chance": 0.05,
+            "duration": 3.8,
+            "energy_requirements": 1,
+            "type_id": 5
+        },
+        {
+            "id": 39,
+            "name": "Hyper Beam",
+            "damage": 120,
+            "critical_hit_chance": 0.05,
+            "duration": 5,
+            "energy_requirements": 1,
+            "type_id": 8
+        },
+        {
+            "id": 40,
+            "name": "Hyper Fang",
+            "damage": 35,
+            "critical_hit_chance": 0.05,
+            "duration": 2.1,
+            "energy_requirements": 3,
+            "type_id": 8
+        },
+        {
+            "id": 41,
+            "name": "Ice Beam",
+            "damage": 65,
+            "critical_hit_chance": 0.05,
+            "duration": 3.65,
+            "energy_requirements": 2,
+            "type_id": 15
+        },
+        {
+            "id": 42,
+            "name": "Ice Punch",
+            "damage": 45,
+            "critical_hit_chance": 0.05,
+            "duration": 3.5,
+            "energy_requirements": 3,
+            "type_id": 15
+        },
+        {
+            "id": 43,
+            "name": "Icy Wind",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 3.8,
+            "energy_requirements": 5,
+            "type_id": 15
+        },
+        {
+            "id": 44,
+            "name": "Iron Head",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2,
+            "energy_requirements": 3,
+            "type_id": 14
+        },
+        {
+            "id": 45,
+            "name": "Leaf Blade",
+            "damage": 55,
+            "critical_hit_chance": 0.25,
+            "duration": 2.8,
+            "energy_requirements": 2,
+            "type_id": 2
+        },
+        {
+            "id": 46,
+            "name": "Low Sweep",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.25,
+            "energy_requirements": 4,
+            "type_id": 11
+        },
+        {
+            "id": 47,
+            "name": "Magnet Bomb",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.8,
+            "energy_requirements": 4,
+            "type_id": 14
+        },
+        {
+            "id": 48,
+            "name": "Megahorn",
+            "damage": 80,
+            "critical_hit_chance": 0.05,
+            "duration": 3.2,
+            "energy_requirements": 1,
+            "type_id": 6
+        },
+        {
+            "id": 49,
+            "name": "Moonblast",
+            "damage": 85,
+            "critical_hit_chance": 0.05,
+            "duration": 4.1,
+            "energy_requirements": 1,
+            "type_id": 9
+        },
+        {
+            "id": 50,
+            "name": "Mud Bomb",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.6,
+            "energy_requirements": 4,
+            "type_id": 10
+        },
+        {
+            "id": 51,
+            "name": "Night Slash",
+            "damage": 30,
+            "critical_hit_chance": 0.25,
+            "duration": 2.7,
+            "energy_requirements": 4
+        },
+        {
+            "id": 52,
+            "name": "Ominous Wind",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 3.1,
+            "energy_requirements": 4,
+            "type_id": 16
+        },
+        {
+            "id": 53,
+            "name": "Petal Blizzard",
+            "damage": 65,
+            "critical_hit_chance": 0.05,
+            "duration": 3.2,
+            "energy_requirements": 2,
+            "type_id": 2
+        },
+        {
+            "id": 54,
+            "name": "Play Rough",
+            "damage": 55,
+            "critical_hit_chance": 0.05,
+            "duration": 2.9,
+            "energy_requirements": 2,
+            "type_id": 9
+        },
+        {
+            "id": 55,
+            "name": "Poison Fang",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 2.4,
+            "energy_requirements": 5,
+            "type_id": 1
+        },
+        {
+            "id": 56,
+            "name": "Power Gem",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 2.9,
+            "energy_requirements": 3,
+            "type_id": 13
+        },
+        {
+            "id": 57,
+            "name": "Power Whip",
+            "damage": 70,
+            "critical_hit_chance": 0.12,
+            "duration": 2.8,
+            "energy_requirements": 1,
+            "type_id": 2
+        },
+        {
+            "id": 58,
+            "name": "Psybeam",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 3.8,
+            "energy_requirements": 4,
+            "type_id": 12
+        },
+        {
+            "id": 59,
+            "name": "Psychic",
+            "damage": 55,
+            "critical_hit_chance": 0.05,
+            "duration": 2.8,
+            "energy_requirements": 2,
+            "type_id": 12
+        },
+        {
+            "id": 60,
+            "name": "Psyshock",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 2.7,
+            "energy_requirements": 3,
+            "type_id": 12
+        },
+        {
+            "id": 61,
+            "name": "Rock Slide",
+            "damage": 50,
+            "critical_hit_chance": 0.05,
+            "duration": 3.2,
+            "energy_requirements": 3,
+            "type_id": 13
+        },
+        {
+            "id": 62,
+            "name": "Rock Tomb",
+            "damage": 30,
+            "critical_hit_chance": 0.25,
+            "duration": 3.4,
+            "energy_requirements": 4,
+            "type_id": 13
+        },
+        {
+            "id": 63,
+            "name": "Scald",
+            "damage": 55,
+            "critical_hit_chance": 0.05,
+            "duration": 4,
+            "energy_requirements": 3,
+            "type_id": 5
+        },
+        {
+            "id": 64,
+            "name": "Seed Bomb",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 2.4,
+            "energy_requirements": 3,
+            "type_id": 2
+        },
+        {
+            "id": 65,
+            "name": "Shadow Ball",
+            "damage": 45,
+            "critical_hit_chance": 0.05,
+            "duration": 3.08,
+            "energy_requirements": 3,
+            "type_id": 16
+        },
+        {
+            "id": 66,
+            "name": "Signal Beam",
+            "damage": 45,
+            "critical_hit_chance": 0.05,
+            "duration": 3.1,
+            "energy_requirements": 3,
+            "type_id": 6
+        },
+        {
+            "id": 67,
+            "name": "Sludge",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.6,
+            "energy_requirements": 4,
+            "type_id": 1
+        },
+        {
+            "id": 68,
+            "name": "Sludge Bomb",
+            "damage": 55,
+            "critical_hit_chance": 0.05,
+            "duration": 2.6,
+            "energy_requirements": 2,
+            "type_id": 1
+        },
+        {
+            "id": 69,
+            "name": "Sludge Wave",
+            "damage": 70,
+            "critical_hit_chance": 0.05,
+            "duration": 3.4,
+            "energy_requirements": 1,
+            "type_id": 1
+        },
+        {
+            "id": 70,
+            "name": "Solar Beam",
+            "damage": 120,
+            "critical_hit_chance": 0.05,
+            "duration": 4.9,
+            "energy_requirements": 1,
+            "type_id": 2
+        },
+        {
+            "id": 71,
+            "name": "Stomp",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.1,
+            "energy_requirements": 4,
+            "type_id": 8
+        },
+        {
+            "id": 72,
+            "name": "Stone Edge",
+            "damage": 80,
+            "critical_hit_chance": 0.5,
+            "duration": 3.1,
+            "energy_requirements": 1,
+            "type_id": 13
+        },
+        {
+            "id": 73,
+            "name": "Struggle",
+            "damage": 15,
+            "critical_hit_chance": 0,
+            "duration": 1.695,
+            "energy_requirements": 5,
+            "type_id": 8
+        },
+        {
+            "id": 74,
+            "name": "Submission",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 2.1,
+            "energy_requirements": 3,
+            "type_id": 11
+        },
+        {
+            "id": 75,
+            "name": "Swift",
+            "damage": 30,
+            "critical_hit_chance": 0.05,
+            "duration": 3,
+            "energy_requirements": 4,
+            "type_id": 8
+        },
+        {
+            "id": 76,
+            "name": "Thunder",
+            "damage": 100,
+            "critical_hit_chance": 0.05,
+            "duration": 4.3,
+            "energy_requirements": 1,
+            "type_id": 7
+        },
+        {
+            "id": 77,
+            "name": "Thunder Punch",
+            "damage": 40,
+            "critical_hit_chance": 0.05,
+            "duration": 2.4,
+            "energy_requirements": 3,
+            "type_id": 7
+        },
+        {
+            "id": 78,
+            "name": "Thunderbolt",
+            "damage": 55,
+            "critical_hit_chance": 0.05,
+            "duration": 2.7,
+            "energy_requirements": 2,
+            "type_id": 7
+        },
+        {
+            "id": 79,
+            "name": "Twister",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 2.7,
+            "energy_requirements": 5,
+            "type_id": 17
+        },
+        {
+            "id": 80,
+            "name": "Vice Grip",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 2.1,
+            "energy_requirements": 5,
+            "type_id": 8
+        },
+        {
+            "id": 81,
+            "name": "Water Pulse",
+            "damage": 35,
+            "critical_hit_chance": 0.05,
+            "duration": 3.3,
+            "energy_requirements": 4,
+            "type_id": 5
+        },
+        {
+            "id": 82,
+            "name": "Wrap",
+            "damage": 25,
+            "critical_hit_chance": 0.05,
+            "duration": 4,
+            "energy_requirements": 5,
+            "type_id": 8
+        },
+        {
+            "id": 83,
+            "name": "X-Scissor",
+            "damage": 35,
+            "critical_hit_chance": 0.05,
+            "duration": 2.1,
+            "energy_requirements": 3,
+            "type_id": 6
+        }
+    ]
+}
