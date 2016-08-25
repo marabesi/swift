@@ -95,8 +95,23 @@ class PokemonsViewController: UIViewController {
 
         cell.name.text = collection[indexPath.row].name
         
-        let imgData = NSData(contentsOfURL: collection[indexPath.row].urlImage)
-        cell.pokeImage.image = UIImage(data: imgData!)
+//        let imgData = NSData(contentsOfURL: collection[indexPath.row].urlImage)
+//        cell.pokeImage.image = UIImage(data: imgData!)
+        
+        cell.pokeImage.image = nil
+        
+        let qualityOfServiceClass = QOS_CLASS_BACKGROUND
+        let backgroundQueue = dispatch_get_global_queue(qualityOfServiceClass, 0)
+        dispatch_async(backgroundQueue, {
+//            print("This is run on the background queue")
+            
+            let imgData = NSData(contentsOfURL: self.collection[indexPath.row].urlImage)
+            
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+//                print("This is run on the main queue, after the previous code in outer block")
+                cell.pokeImage.image = UIImage(data: imgData!)
+            })
+        })
         
         return cell
     }
