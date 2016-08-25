@@ -197,6 +197,7 @@
                     <navigationItem key="navigationItem" id="hzC-eJ-xAq"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="pokeCollection" destination="XkQ-MZ-lwt" id="KDa-uE-6q8"/>
                         <outlet property="searchDisplayController" destination="rbS-GO-k2U" id="8bF-0S-32t"/>
                     </connections>
                 </viewController>
@@ -211,7 +212,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="432.5" y="822.5"/>
+            <point key="canvasLocation" x="408.5" y="812.5"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="6hJ-Of-g2b">

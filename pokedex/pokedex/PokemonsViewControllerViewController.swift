@@ -11,10 +11,50 @@ import UIKit
 private let reuseIdentifier = "pokemonViewCell"
 
 class PokemonsViewController: UIViewController {
+
+    var collection = [Pokemon]()
+    
+    @IBOutlet weak var pokeCollection: UICollectionView!
+    
+    func loadData() {
+        let urlPath: String = "https://raw.githubusercontent.com/marabesi/swift/master/pokedex-api/pokemons.json"
+        let url: NSURL = NSURL(string: urlPath)!
+        let request1: NSURLRequest = NSURLRequest(URL: url)
+        let queue:NSOperationQueue = NSOperationQueue()
+        
+        NSURLConnection.sendAsynchronousRequest(request1, queue: queue, completionHandler:{ (response: NSURLResponse?, data: NSData?, error: NSError?) -> Void in
+            
+            do {
+                if let json = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? [String: AnyObject] {
+                    
+                    let pokes = json["pokemons"] as? NSArray
+                    
+                    for pokemon in pokes! {
+                        let items = pokemon as! NSDictionary
+                        
+                            let newPokemon = Pokemon()
+                            newPokemon.name = items.objectForKey("name")! as! String
+                            newPokemon.urlImage = NSURL(string: items.objectForKey("img_url") as! String)!
+                        
+                                self.collection.append(newPokemon)
+                    }
+                    
+                    dispatch_async(dispatch_get_main_queue()) {
+                        self.pokeCollection.reloadData()
+                    }
+                } else {
+                    print("error")
+                }
+            } catch let error as NSError {
+                print(error.localizedDescription)
+            }
+        })
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        loadData()
         
         // Do any additional setup after loading the view.
     }
@@ -23,7 +63,6 @@ class PokemonsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
     /*
      // MARK: - Navigation
@@ -36,7 +75,6 @@ class PokemonsViewController: UIViewController {
      */
     
     
-    
     // MARK: UICollectionViewDataSource
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
@@ -47,21 +85,18 @@ class PokemonsViewController: UIViewController {
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 50
+        return collection.count
         
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! PokemonCollectionViewCell
+
+        cell.name.text = collection[indexPath.row].name
         
-        cell.name.text = "Narutomon"
-        cell.pokeImage.image = UIImage(named:"bolado")
-        
-        
-        
-        
-        // Configure the cell
+        let imgData = NSData(contentsOfURL: collection[indexPath.row].urlImage)
+        cell.pokeImage.image = UIImage(data: imgData!)
         
         return cell
     }

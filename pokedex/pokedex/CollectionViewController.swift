@@ -14,56 +14,6 @@ class CollectionViewController: UICollectionViewController {
 
     var collection = [Pokemon]()
     
-    func loadData() {
-        let name = String("asas")
-        let image = UIImage(named: "pokeball")
-        
-        let item1 = Pokemon()
-        item1.name = name
-        item1.image = image!
-        
-        let item2 = Pokemon()
-        item2.name = name
-        item2.image = image!
-        
-        collection.append(item1)
-        collection.append(item2)
-        
-        // let urlPath: String = "http://pokeapi.co/api/v2/pokemon/"
-        let urlPath: String = "https://raw.githubusercontent.com/marabesi/swift/master/pokedex-api/pokemons.json"
-        let url: NSURL = NSURL(string: urlPath)!
-        let request1: NSURLRequest = NSURLRequest(URL: url)
-        let queue:NSOperationQueue = NSOperationQueue()
-        
-        NSURLConnection.sendAsynchronousRequest(request1, queue: queue, completionHandler:{ (response: NSURLResponse?, data: NSData?, error: NSError?) -> Void in
-            
-            do {
-                if let json = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? [String: AnyObject] {
-                    
-                    let pokes = json["pokemons"] as? NSArray
-                    
-                    for pokemon in pokes! {
-                        let item = pokemon as! NSDictionary
-                        
-                        for(key, value) in item {
-                            
-                            let newPokemon = Pokemon()
-                            
-                            if (key as! String == "name") {
-                                newPokemon.name = value as! String
-                            }
-                        }
-                    }
-                    
-                } else {
-                    print("error")
-                }
-            } catch let error as NSError {
-                print(error.localizedDescription)
-            }
-            
-        })
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,7 +24,7 @@ class CollectionViewController: UICollectionViewController {
         // Register cell classes
         //self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
-        loadData()
+        //oadData()
         
         // Do any additional setup after loading the view.
     }
@@ -117,6 +67,8 @@ class CollectionViewController: UICollectionViewController {
         image.image = collection[indexPath.row].image
         
         cell.backgroundColor = UIColor.whiteColor()
+        
+        print(collection[indexPath.row].name)
         
         return cell
     }

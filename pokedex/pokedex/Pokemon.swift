@@ -12,5 +12,6 @@ class Pokemon: NSObject {
 
     var image = UIImage()
     var name = String()
+    var urlImage = NSURL()
     
 }
