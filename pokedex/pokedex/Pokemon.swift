@@ -10,6 +10,7 @@ import UIKit
 
 class Pokemon: NSObject {
 
+    var id = Int()  
     var image = UIImage()
     var name = String()
     var urlImage = NSURL()

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PokemonDetailViewController: UIViewController {
+class PokemonDetailViewController: UIViewController, UITableViewDelegate {
 
     var pokemon = Pokemon()
     
@@ -16,6 +16,10 @@ class PokemonDetailViewController: UIViewController {
     @IBOutlet weak var pokemonImage: UIImageView!
     @IBOutlet weak var maxCp: UILabel!
     @IBOutlet weak var candiesToEvolve: UILabel!
+    @IBOutlet weak var pokemonId: UILabel!
+    @IBOutlet weak var attacksTable: UITableView!
+    
+    var attacks = [Attacks]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +27,7 @@ class PokemonDetailViewController: UIViewController {
         nameLabel.text = pokemon.name
         maxCp.text = pokemon.maxCp
         candiesToEvolve.text = pokemon.candiesToEvolve
+        pokemonId.text = "#" + String(pokemon.id)
         
         let qualityOfServiceClass = QOS_CLASS_BACKGROUND
         let backgroundQueue = dispatch_get_global_queue(qualityOfServiceClass, 0)
@@ -34,6 +39,11 @@ class PokemonDetailViewController: UIViewController {
             self.pokemonImage.image = img
         })
         
+        let at1 = Attacks()
+        at1.name = "voadora mata 1"
+        at1.damage = 200
+        
+        attacks.append(at1)
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,14 +55,26 @@ class PokemonDetailViewController: UIViewController {
         self.navigationController?.popViewControllerAnimated(true)
     }
     
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
     }
-    */
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return attacks.count
+    }
 
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! AttackTableViewCell
+        
+        cell.name.text = attacks[indexPath.row].name
+        cell.damage.text = String(attacks[indexPath.row].damage)
+        
+        return cell
+    }
+    
 }
