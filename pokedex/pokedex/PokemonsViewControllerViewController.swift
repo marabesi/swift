@@ -39,6 +39,7 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISear
                         
                             let newPokemon = Pokemon()
                         
+                            newPokemon.id = items.objectForKey("id")! as! Int
                             newPokemon.name = items.objectForKey("name")! as! String
                             newPokemon.urlImage = NSURL(string: items.objectForKey("img_url") as! String)!
                             newPokemon.maxCp = items.objectForKey("max_cp")! as! String
