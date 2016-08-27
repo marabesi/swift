@@ -10,11 +10,15 @@ import UIKit
 
 private let reuseIdentifier = "pokemonViewCell"
 
-class PokemonsViewController: UIViewController, UICollectionViewDelegate {
+class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISearchControllerDelegate, UITableViewDelegate {
 
     var collection = [Pokemon]()
     var selectedPoke = Pokemon()
+    var filterCollection = NSArray()
     
+    
+    
+    @IBOutlet var searchController: UISearchDisplayController!
     @IBOutlet weak var pokeCollection: UICollectionView!
     
     func loadData() {
@@ -59,6 +63,13 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate {
         super.viewDidLoad()
         
         loadData()
+        
+        let nibName = UINib(nibName: "PokemonTableViewCell", bundle:nil)
+        self.searchController.searchResultsTableView.registerNib(nibName, forCellReuseIdentifier: "PokeTableCell")
+        
+//        searchController.searchBar.delegate = self
+        
+
         
         // Do any additional setup after loading the view.
     }
@@ -119,6 +130,63 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate {
         
         return cell
     }
+    
+    
+    
+    // MARK: UISearchControllerDelegate
+    
+    
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        
+        let searchPredicate = NSPredicate(format: "name CONTAINS[c] %@", searchController.searchBar.text!)
+        let array = (collection as NSArray).filteredArrayUsingPredicate(searchPredicate)
+        filterCollection = array as! [NSArray]
+        //        self.tblView.reloadData()
+        self.searchController.searchResultsTableView.reloadData()
+    }
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        if self.searchController.active {
+            return self.filterCollection.count
+        }
+        
+        return 1;
+        
+    }
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+
+        
+        
+//        var section = indexPath.section
+//        var row = indexPath.row
+        let cell = searchController.searchResultsTableView.dequeueReusableCellWithIdentifier("PokeTableCell", forIndexPath: indexPath) as! PokemonTableViewCell
+        
+
+        
+        if self.searchController.active {
+            
+            let pokemon = filterCollection[indexPath.row] as! Pokemon
+            
+            cell.pokeName.text = pokemon.name
+            
+        }
+        
+        
+        
+        return cell
+    }
+
+    
+    
+    
     
     // MARK: UICollectionViewDelegate
     

@@ -17,6 +17,8 @@
 		94F908261D627FBE009F66CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F908241D627FBE009F66CD /* LaunchScreen.storyboard */; };
 		94F908311D627FBF009F66CD /* pokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F908301D627FBF009F66CD /* pokedexTests.swift */; };
 		94F9083C1D627FBF009F66CD /* pokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9083B1D627FBF009F66CD /* pokedexUITests.swift */; };
+		F73192371D7205E700F745BF /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73192351D7205E700F745BF /* PokemonTableViewCell.swift */; };
+		F73192381D7205E700F745BF /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73192361D7205E700F745BF /* PokemonTableViewCell.xib */; };
 		F7F20B591D6E5CC300AB3F2E /* PokemonsViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F20B581D6E5CC300AB3F2E /* PokemonsViewControllerViewController.swift */; };
 		F7F20B5B1D6E5CFC00AB3F2E /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F20B5A1D6E5CFC00AB3F2E /* PokemonCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		94F908371D627FBF009F66CD /* pokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F9083B1D627FBF009F66CD /* pokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexUITests.swift; sourceTree = "<group>"; };
 		94F9083D1D627FBF009F66CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73192351D7205E700F745BF /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokemonTableViewCell.swift; path = ../PokemonTableViewCell.swift; sourceTree = "<group>"; };
+		F73192361D7205E700F745BF /* PokemonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PokemonTableViewCell.xib; path = ../PokemonTableViewCell.xib; sourceTree = "<group>"; };
 		F7F20B581D6E5CC300AB3F2E /* PokemonsViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsViewControllerViewController.swift; sourceTree = "<group>"; };
 		F7F20B5A1D6E5CFC00AB3F2E /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +144,7 @@
 		F7F20B571D6E5C7800AB3F2E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F73192351D7205E700F745BF /* PokemonTableViewCell.swift */,
 				F7F20B581D6E5CC300AB3F2E /* PokemonsViewControllerViewController.swift */,
 				F7F20B5A1D6E5CFC00AB3F2E /* PokemonCollectionViewCell.swift */,
 				948FCD121D71C0C300A519A4 /* PokemonDetailViewController.swift */,
@@ -152,6 +157,7 @@
 			children = (
 				94F9081F1D627FBE009F66CD /* Main.storyboard */,
 				94F908241D627FBE009F66CD /* LaunchScreen.storyboard */,
+				F73192361D7205E700F745BF /* PokemonTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F908261D627FBE009F66CD /* LaunchScreen.storyboard in Resources */,
+				F73192381D7205E700F745BF /* PokemonTableViewCell.xib in Resources */,
 				94F908231D627FBE009F66CD /* Assets.xcassets in Resources */,
 				94F908211D627FBE009F66CD /* Main.storyboard in Resources */,
 			);
@@ -296,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94ABF48F1D6BBEAC0010C3E9 /* Pokemon.swift in Sources */,
+				F73192371D7205E700F745BF /* PokemonTableViewCell.swift in Sources */,
 				94A8B7061D6546B8000C6D86 /* CollectionViewController.swift in Sources */,
 				948FCD131D71C0C300A519A4 /* PokemonDetailViewController.swift in Sources */,
 				94F9081E1D627FBE009F66CD /* ViewController.swift in Sources */,

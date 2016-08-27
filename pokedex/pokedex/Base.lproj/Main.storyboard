@@ -100,7 +100,7 @@
                                         </constraints>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="FPH-ir-xJK" id="bNd-mE-b7N"/>
+                                            <outlet property="delegate" destination="FPH-ir-xJK" id="FD0-ZZ-vRe"/>
                                         </connections>
                                     </searchBar>
                                 </subviews>
@@ -203,6 +203,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="pokeCollection" destination="XkQ-MZ-lwt" id="KDa-uE-6q8"/>
+                        <outlet property="searchController" destination="rbS-GO-k2U" id="fdq-7d-Swi"/>
                         <outlet property="searchDisplayController" destination="rbS-GO-k2U" id="8bF-0S-32t"/>
                         <segue destination="9Qb-fk-5Os" kind="show" identifier="pokemon_detail_segue" id="9LO-UW-Mt9"/>
                     </connections>
