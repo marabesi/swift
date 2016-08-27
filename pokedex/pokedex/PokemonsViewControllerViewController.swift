@@ -10,9 +10,10 @@ import UIKit
 
 private let reuseIdentifier = "pokemonViewCell"
 
-class PokemonsViewController: UIViewController {
+class PokemonsViewController: UIViewController, UICollectionViewDelegate {
 
     var collection = [Pokemon]()
+    var selectedPoke = Pokemon()
     
     @IBOutlet weak var pokeCollection: UICollectionView!
     
@@ -118,20 +119,15 @@ class PokemonsViewController: UIViewController {
     
     // MARK: UICollectionViewDelegate
     
-    
     // Uncomment this method to specify if the specified item should be highlighted during tracking
     func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
         return true
     }
     
-    
-    
     // Uncomment this method to specify if the specified item should be selected
     func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
         return true
     }
-    
-    
     
     // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
     func collectionView(collectionView: UICollectionView, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -146,6 +142,14 @@ class PokemonsViewController: UIViewController {
         
     }
     
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        selectedPoke = collection[indexPath.row]
+        
+        self.performSegueWithIdentifier("pokemon_detail_segue", sender: nil)
+    }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let toVc:PokemonDetailViewController = segue.destinationViewController as! PokemonDetailViewController
+        toVc.pokemon = selectedPoke
+    }
 }
