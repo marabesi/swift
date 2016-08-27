@@ -312,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94ABF48F1D6BBEAC0010C3E9 /* Pokemon.swift in Sources */,
+				94809FC21D720F530050088B /* Attacks.swift in Sources */,
 				F73192371D7205E700F745BF /* PokemonTableViewCell.swift in Sources */,
 				94A8B7061D6546B8000C6D86 /* CollectionViewController.swift in Sources */,
 				948FCD131D71C0C300A519A4 /* PokemonDetailViewController.swift in Sources */,
