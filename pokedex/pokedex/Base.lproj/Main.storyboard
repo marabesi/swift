@@ -35,6 +35,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v9W-w4-fCR">
+                                <rect key="frame" x="7" y="155" width="359" height="512"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.031372549019607843" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kjk-jt-Btz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -104,12 +113,10 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="XkQ-MZ-lwt">
-                                <rect key="frame" x="20" y="165" width="335" height="502"/>
+                                <rect key="frame" x="10" y="154" width="355" height="513"/>
                                 <color key="backgroundColor" red="0.1960784314" green="0.031372549020000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="502" id="AMh-6S-Fmv"/>
-                                    <constraint firstAttribute="height" constant="502" id="dIh-qO-3f6"/>
-                                    <constraint firstAttribute="height" constant="502" id="iXH-5B-U7T"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="ZQQ-KF-jAq">
                                     <size key="itemSize" width="90" height="90"/>
@@ -153,12 +160,6 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
                                 </userDefinedRuntimeAttributes>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="dIh-qO-3f6"/>
-                                        <exclude reference="iXH-5B-U7T"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="FPH-ir-xJK" id="gdF-fA-Oyq"/>
                                     <outlet property="delegate" destination="FPH-ir-xJK" id="RDJ-Hq-eOD"/>
@@ -169,21 +170,25 @@
                         <constraints>
                             <constraint firstItem="Kjk-jt-Btz" firstAttribute="top" secondItem="fvK-YE-w0x" secondAttribute="top" id="2S5-ue-FLk"/>
                             <constraint firstItem="O6c-Ve-ZDb" firstAttribute="leading" secondItem="fvK-YE-w0x" secondAttribute="leading" id="2vt-5L-XER"/>
+                            <constraint firstItem="v9W-w4-fCR" firstAttribute="top" secondItem="pLh-4A-dNd" secondAttribute="bottom" constant="36" id="58b-gD-clT"/>
                             <constraint firstItem="pLh-4A-dNd" firstAttribute="top" secondItem="O6c-Ve-ZDb" secondAttribute="bottom" id="5zZ-O4-sc1"/>
                             <constraint firstItem="O6c-Ve-ZDb" firstAttribute="top" secondItem="6KP-9h-WjD" secondAttribute="bottom" id="6c0-4W-yjZ"/>
                             <constraint firstItem="G4F-3j-KVm" firstAttribute="top" secondItem="XkQ-MZ-lwt" secondAttribute="bottom" id="6jF-ll-hvB"/>
                             <constraint firstItem="Kjk-jt-Btz" firstAttribute="leading" secondItem="fvK-YE-w0x" secondAttribute="leading" id="7bX-yy-aiS"/>
+                            <constraint firstItem="v9W-w4-fCR" firstAttribute="leading" secondItem="fvK-YE-w0x" secondAttribute="leading" constant="5" id="A0Q-zf-S1d"/>
                             <constraint firstItem="XkQ-MZ-lwt" firstAttribute="top" secondItem="pLh-4A-dNd" secondAttribute="bottom" constant="51" id="B6X-D6-ldm"/>
                             <constraint firstItem="pLh-4A-dNd" firstAttribute="leading" secondItem="fvK-YE-w0x" secondAttribute="leading" id="BCO-ep-H4I"/>
-                            <constraint firstAttribute="trailing" secondItem="XkQ-MZ-lwt" secondAttribute="trailing" constant="20" id="CuR-et-irV"/>
+                            <constraint firstAttribute="trailing" secondItem="XkQ-MZ-lwt" secondAttribute="trailing" constant="10" id="CuR-et-irV"/>
                             <constraint firstAttribute="trailing" secondItem="O6c-Ve-ZDb" secondAttribute="trailing" id="GOc-Z2-7sy"/>
                             <constraint firstItem="XkQ-MZ-lwt" firstAttribute="trailing" secondItem="fvK-YE-w0x" secondAttribute="trailingMargin" id="GdN-nK-FMo"/>
                             <constraint firstAttribute="trailing" secondItem="Kjk-jt-Btz" secondAttribute="trailing" id="NvL-ou-rG3"/>
                             <constraint firstItem="G4F-3j-KVm" firstAttribute="top" secondItem="XkQ-MZ-lwt" secondAttribute="bottom" id="PXr-YF-TtW"/>
+                            <constraint firstItem="G4F-3j-KVm" firstAttribute="top" secondItem="v9W-w4-fCR" secondAttribute="bottom" id="QW8-hf-w6E"/>
+                            <constraint firstAttribute="trailing" secondItem="v9W-w4-fCR" secondAttribute="trailing" constant="5" id="RF2-1J-P0q"/>
                             <constraint firstItem="XkQ-MZ-lwt" firstAttribute="leading" secondItem="fvK-YE-w0x" secondAttribute="leadingMargin" id="RLy-zw-imJ"/>
-                            <constraint firstItem="XkQ-MZ-lwt" firstAttribute="top" secondItem="pLh-4A-dNd" secondAttribute="bottom" constant="51" id="Rt5-OB-bBr"/>
+                            <constraint firstItem="XkQ-MZ-lwt" firstAttribute="top" secondItem="pLh-4A-dNd" secondAttribute="bottom" constant="40" id="Rt5-OB-bBr"/>
                             <constraint firstAttribute="trailing" secondItem="pLh-4A-dNd" secondAttribute="trailing" id="WxW-wd-6bL"/>
-                            <constraint firstItem="XkQ-MZ-lwt" firstAttribute="leading" secondItem="fvK-YE-w0x" secondAttribute="leading" constant="20" id="pZK-dY-rej"/>
+                            <constraint firstItem="XkQ-MZ-lwt" firstAttribute="leading" secondItem="fvK-YE-w0x" secondAttribute="leading" constant="10" id="pZK-dY-rej"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
