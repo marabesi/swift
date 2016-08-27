@@ -20,10 +20,15 @@ class PokemonDetailViewController: UIViewController {
         
         nameLabel.text = pokemon.name
         
-        let imgData = NSData(contentsOfURL: pokemon.urlImage)
-        let img = UIImage(data: imgData!)
+        let qualityOfServiceClass = QOS_CLASS_BACKGROUND
+        let backgroundQueue = dispatch_get_global_queue(qualityOfServiceClass, 0)
         
-        pokemonImage.image = img
+        dispatch_async(backgroundQueue, {
+            let imgData = NSData(contentsOfURL: self.pokemon.urlImage)
+            let img = UIImage(data: imgData!)
+        
+            self.pokemonImage.image = img
+        })
     }
 
     override func didReceiveMemoryWarning() {
