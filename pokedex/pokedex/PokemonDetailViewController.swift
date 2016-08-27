@@ -14,11 +14,15 @@ class PokemonDetailViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var pokemonImage: UIImageView!
+    @IBOutlet weak var maxCp: UILabel!
+    @IBOutlet weak var candiesToEvolve: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         nameLabel.text = pokemon.name
+        maxCp.text = pokemon.maxCp
+        candiesToEvolve.text = pokemon.candiesToEvolve
         
         let qualityOfServiceClass = QOS_CLASS_BACKGROUND
         let backgroundQueue = dispatch_get_global_queue(qualityOfServiceClass, 0)
@@ -29,6 +33,7 @@ class PokemonDetailViewController: UIViewController {
         
             self.pokemonImage.image = img
         })
+        
     }
 
     override func didReceiveMemoryWarning() {

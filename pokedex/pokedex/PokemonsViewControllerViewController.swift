@@ -34,8 +34,11 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate {
                         let items = pokemon as! NSDictionary
                         
                             let newPokemon = Pokemon()
+                        
                             newPokemon.name = items.objectForKey("name")! as! String
                             newPokemon.urlImage = NSURL(string: items.objectForKey("img_url") as! String)!
+                            newPokemon.maxCp = items.objectForKey("max_cp")! as! String
+                            newPokemon.candiesToEvolve = items.objectForKey("candies_to_evolve")! as! String
                         
                                 self.collection.append(newPokemon)
                     }

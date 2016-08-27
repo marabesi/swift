@@ -14,4 +14,6 @@ class Pokemon: NSObject {
     var name = String()
     var urlImage = NSURL()
     
+    var maxCp = String()
+    var candiesToEvolve = String()
 }
