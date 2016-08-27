@@ -708,7 +708,7 @@
         {
             "id": 29,
             "img_url": "http://serebii.net/pokemongo/pokemon/029.png",
-            "name": "Nidoranâ™€",
+            "name": "Nidoran",
             "hit_points": "110",
             "attack": "100",
             "defense": "104",
@@ -784,7 +784,7 @@
         {
             "id": 32,
             "img_url": "http://serebii.net/pokemongo/pokemon/032.png",
-            "name": "Nidoranâ™‚",
+            "name": "Nidoran",
             "hit_points": "92",
             "attack": "110",
             "defense": "94",
