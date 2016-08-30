@@ -11,7 +11,7 @@ import UIKit
 private let reuseIdentifier = "pokemonViewCell"
 
 class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISearchControllerDelegate, UITableViewDelegate {
-
+    
     var collection = [Pokemon]()
     var selectedPoke = Pokemon()
     var filterCollection = NSArray()
@@ -37,15 +37,15 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISear
                     for pokemon in pokes! {
                         let items = pokemon as! NSDictionary
                         
-                            let newPokemon = Pokemon()
+                        let newPokemon = Pokemon()
                         
-                            newPokemon.id = items.objectForKey("id")! as! Int
-                            newPokemon.name = items.objectForKey("name")! as! String
-                            newPokemon.urlImage = NSURL(string: items.objectForKey("img_url") as! String)!
-                            newPokemon.maxCp = items.objectForKey("max_cp")! as! String
-                            newPokemon.candiesToEvolve = items.objectForKey("candies_to_evolve")! as! String
+                        newPokemon.id = items.objectForKey("id")! as! Int
+                        newPokemon.name = items.objectForKey("name")! as! String
+                        newPokemon.urlImage = NSURL(string: items.objectForKey("img_url") as! String)!
+                        newPokemon.maxCp = items.objectForKey("max_cp")! as! String
+                        newPokemon.candiesToEvolve = items.objectForKey("candies_to_evolve")! as! String
                         
-                                self.collection.append(newPokemon)
+                        self.collection.append(newPokemon)
                     }
                     
                     dispatch_async(dispatch_get_main_queue()) {
@@ -67,10 +67,12 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISear
         
         let nibName = UINib(nibName: "PokemonTableViewCell", bundle:nil)
         self.searchController.searchResultsTableView.registerNib(nibName, forCellReuseIdentifier: "PokeTableCell")
+        self.searchController.searchResultsTableView.separatorStyle = .None
+        self.searchController.searchResultsTableView.backgroundColor = UIColor (colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.8)
+        self.searchController.searchResultsTableView.rowHeight = 70
+        //        searchController.searchBar.delegate = self
         
-//        searchController.searchBar.delegate = self
         
-
         
         // Do any additional setup after loading the view.
     }
@@ -80,15 +82,11 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISear
         // Dispose of any resources that can be recreated.
     }
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        selectedPoke = filterCollection[indexPath.row] as! Pokemon
+        self.performSegueWithIdentifier("pokemon_detail_segue", sender: nil)
+    }
     
     
     // MARK: UICollectionViewDataSource
@@ -108,24 +106,27 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISear
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! PokemonCollectionViewCell
-
+        
         cell.name.text = collection[indexPath.row].name
         
-//        let imgData = NSData(contentsOfURL: collection[indexPath.row].urlImage)
-//        cell.pokeImage.image = UIImage(data: imgData!)
+        //        let imgData = NSData(contentsOfURL: collection[indexPath.row].urlImage)
+        //        cell.pokeImage.image = UIImage(data: imgData!)
         
         cell.pokeImage.image = nil
+
         
         let qualityOfServiceClass = QOS_CLASS_BACKGROUND
         let backgroundQueue = dispatch_get_global_queue(qualityOfServiceClass, 0)
         dispatch_async(backgroundQueue, {
-//            print("This is run on the background queue")
+            //            print("This is run on the background queue")
             
             let imgData = NSData(contentsOfURL: self.collection[indexPath.row].urlImage)
             
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
-//                print("This is run on the main queue, after the previous code in outer block")
-                cell.pokeImage.image = UIImage(data: imgData!)
+                //                print("This is run on the main queue, after the previous code in outer block")
+                self.collection[indexPath.row].image = UIImage(data: imgData!)!
+                //                cell.pokeImage.image = UIImage(data: imgData!)
+                cell.pokeImage.image = self.collection[indexPath.row].image
             })
         })
         
@@ -163,29 +164,41 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISear
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-
         
         
-//        var section = indexPath.section
-//        var row = indexPath.row
         let cell = searchController.searchResultsTableView.dequeueReusableCellWithIdentifier("PokeTableCell", forIndexPath: indexPath) as! PokemonTableViewCell
         
-
         
         if self.searchController.active {
             
             let pokemon = filterCollection[indexPath.row] as! Pokemon
             
             cell.pokeName.text = pokemon.name
-            
-        }
         
+            
+            if pokemon.image != nil {
+                cell.pokeImage.image = pokemon.image
+            }
+            else{
+                
+                let qualityOfServiceClass = QOS_CLASS_BACKGROUND
+                let backgroundQueue = dispatch_get_global_queue(qualityOfServiceClass, 0)
+                dispatch_async(backgroundQueue, {
+                    //            print("This is run on the background queue")
+                    
+                    let imgData = NSData(contentsOfURL: self.collection[indexPath.row].urlImage)
+                    
+                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                        cell.pokeImage.image = UIImage(data: imgData!)
+                    })
+                })
+                
+            }
+        }
         
         
         return cell
     }
-
-    
     
     
     
