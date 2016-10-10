@@ -31,7 +31,7 @@ class PokemonDetailViewController: UIViewController, UITableViewDelegate {
         }
         
         self.pokemonImage.animationImages = imgListArray;
-        self.pokemonImage.animationDuration = 1.0
+        self.pokemonImage.animationDuration = 0.9
         self.pokemonImage.startAnimating()
         
         nameLabel.text = pokemon.name
@@ -45,7 +45,7 @@ class PokemonDetailViewController: UIViewController, UITableViewDelegate {
         backgroundQueue.async(execute: {
             let imgData = try? Data(contentsOf: self.pokemon.urlImage! as URL)
             let img = UIImage(data: imgData!)
-        
+            self.pokemonImage.stopAnimating()
             self.pokemonImage.image = img
         })
         
