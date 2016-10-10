@@ -182,7 +182,7 @@ class PokemonsViewController: UIViewController, UICollectionViewDelegate, UISear
         
         let searchPredicate = NSPredicate(format: "name CONTAINS[c] %@", searchController.searchBar.text!)
         let array = (collection as NSArray).filtered(using: searchPredicate)
-        filterCollection = array as! [NSArray] as NSArray
+        filterCollection = array as NSArray
         //        self.tblView.reloadData()
         self.searchController.searchResultsTableView.reloadData()
     }
