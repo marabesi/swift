@@ -11,9 +11,9 @@ import UIKit
 class Pokemon: NSObject {
 
     var id = Int()  
-    var image = UIImage?()
+    var image = UIImage(named:"")
     var name = String()
-    var urlImage = NSURL()
+    var urlImage = URL(string:"www.teste.com")
     
     var maxCp = String()
     var candiesToEvolve = String()

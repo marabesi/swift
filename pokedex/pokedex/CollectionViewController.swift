@@ -46,29 +46,29 @@ class CollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return collection.count
     }
 
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
         return 1
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
         
         let label = cell.viewWithTag(1) as! UILabel
         let image = cell.viewWithTag(2) as! UIImageView
         
-        label.text = collection[indexPath.row].name
-        image.image = collection[indexPath.row].image
+        label.text = collection[(indexPath as NSIndexPath).row].name
+        image.image = collection[(indexPath as NSIndexPath).row].image
         
-        cell.backgroundColor = UIColor.whiteColor()
+        cell.backgroundColor = UIColor.white
         
-        print(collection[indexPath.row].name)
+        print(collection[(indexPath as NSIndexPath).row].name)
         
         return cell
     }

@@ -29,11 +29,11 @@ class PokemonDetailViewController: UIViewController, UITableViewDelegate {
         candiesToEvolve.text = pokemon.candiesToEvolve
         pokemonId.text = "#" + String(pokemon.id)
         
-        let qualityOfServiceClass = QOS_CLASS_BACKGROUND
-        let backgroundQueue = dispatch_get_global_queue(qualityOfServiceClass, 0)
+        let qualityOfServiceClass = DispatchQoS.QoSClass.background
+        let backgroundQueue = DispatchQueue.global(qos: qualityOfServiceClass)
         
-        dispatch_async(backgroundQueue, {
-            let imgData = NSData(contentsOfURL: self.pokemon.urlImage)
+        backgroundQueue.async(execute: {
+            let imgData = try? Data(contentsOf: self.pokemon.urlImage! as URL)
             let img = UIImage(data: imgData!)
         
             self.pokemonImage.image = img
@@ -51,28 +51,28 @@ class PokemonDetailViewController: UIViewController, UITableViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func didClickBackButton(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+    @IBAction func didClickBackButton(_ sender: AnyObject) {
+        self.navigationController?.popViewController(animated: true)
     }
     
 
     
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSectionsInTableView(_ tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return attacks.count
     }
 
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! AttackTableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AttackTableViewCell
         
-        cell.name.text = attacks[indexPath.row].name
-        cell.damage.text = String(attacks[indexPath.row].damage)
+        cell.name.text = attacks[(indexPath as NSIndexPath).row].name
+        cell.damage.text = String(attacks[(indexPath as NSIndexPath).row].damage)
         
         return cell
     }
