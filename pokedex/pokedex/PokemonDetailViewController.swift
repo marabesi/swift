@@ -24,6 +24,16 @@ class PokemonDetailViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var imgListArray :[UIImage] = []
+        for countValue in 0...29
+        {
+            imgListArray.append(UIImage(named: "PokebolaAnimacao_\(countValue).png")!)
+        }
+        
+        self.pokemonImage.animationImages = imgListArray;
+        self.pokemonImage.animationDuration = 1.0
+        self.pokemonImage.startAnimating()
+        
         nameLabel.text = pokemon.name
         maxCp.text = pokemon.maxCp
         candiesToEvolve.text = pokemon.candiesToEvolve
